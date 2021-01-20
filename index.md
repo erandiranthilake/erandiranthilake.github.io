@@ -1,5 +1,5 @@
 
-# _**ABOUT ME**_
+## _**ABOUT ME**_
    
 <table style="border:none;">     
     <tr>         
@@ -13,7 +13,7 @@
 </table>
 <br><br>         
 
-# _**WORK EXPERIENCE**_
+## _**WORK EXPERIENCE**_
 
 <table style="border:none; table-layout:fixed;">     
     <tr>         
@@ -33,7 +33,7 @@ other technologies.
 </table>
 <br><br>
 
-# _**EDUCATION**_
+## _**EDUCATION**_
 
 <table style="border:none; table-layout:fixed;">     
     <tr>         
@@ -47,7 +47,7 @@ other technologies.
 </table>
 <br><br>
 
-# _**PROJECTS**_
+## _**PROJECTS**_
 
 <table style="border:none; table-layout:fixed;">     
     <tr>         
