@@ -1,6 +1,6 @@
 ## _**ABOUT ME**_
    
-<table style="border-collapse:collapse;">     
+<table style="border:none;">     
     <tr>         
         <td style="border:none; padding:0 15px 0 15px;"><img src="images/pic.jpeg" alt="Erandi Ranthilake" width="1000" length="1000"></td>         
         <td style="border:none; padding:0 15px 0 15px;"><p align="justify">
