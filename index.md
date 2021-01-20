@@ -11,8 +11,10 @@
             </p></td>     
     </tr> 
 </table>
-       
-<br><hr style="height:2px;border-width:0;color:#9ddcff;background-color:#9ddcff;"><br>  
+
+<br>
+<hr style="color:#9ddcff; background-color:#9ddcff;">  
+<br>
 
 ## _**WORK EXPERIENCE**_
 
