@@ -1,9 +1,12 @@
-## **Erandi K Ranthilake**
+## **About me**
+
+![Image](images/pic.jpeg)  
+   
 An experienced Software Engineer, a highly motivated graduate student, with a robust
 academic foundation in Object- Oriented programming, Software Engineering, Database
-Systems and Front-End Development. 
+Systems and Front-End Development.  
 Possesses a strong aptitude for learning and mastering
-new technologies. 
+new technologies.  
 Excellent leadership skills, interpersonal skills and teamwork capabilities.
 
 ### _Markdown_
