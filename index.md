@@ -14,19 +14,19 @@
 
 ## _**WORK EXPERIENCE**_
 
-<table style="border:none; width:100%;">     
+<table style="border:none; table-layout:fixed;">     
     <tr>         
-        <td style="border:none; padding:0 15px 0 15px; width:50%;"><img src="images/goldmanSachs.jpg" alt="Goldman Sachs Logo" width="200" length="200"></td>         
-        <td style="border:none; padding:0 15px 0 15px; width:50%;"><img src="images/VirginPulseLogo.jpg" alt="Virgin Pulse Logo" width="200" length="200"></td>
+        <td style="border:none; padding:0 15px 0 15px;" width="50%"><img src="images/goldmanSachs.jpg" alt="Goldman Sachs Logo" width="200" length="200"></td>         
+        <td style="border:none; padding:0 15px 0 15px;" width="50%"><img src="images/VirginPulseLogo.jpg" alt="Virgin Pulse Logo" width="200" length="200"></td>
     </tr>
     <tr>         
-            <td style="border:none; padding:0 15px 0 15px; width:50%;">
-                <p align="justify"> Software Engineer
-                </p>
+            <td style="border:none; padding:0 15px 0 15px;">
+               <b><h3>Software Engineer</h3><br>Goldman Sachs (October 2020 - Current)</b><br><br> Working as a software Engineer to develop internal systems related to cotroling the trades.
             </td>         
-            <td style="border:none; padding:0 15px 0 15px; width:50%;">
-                <p align="justify"> Software Engineer
-                </p>
+            <td style="border:none; padding:0 15px 0 15px;">
+               <b><h3>Associate Software Engineer/ Software Development Intern</h3><br>Virgin Pulse (April 2019 - October 2020)</b><br><br> Developed RESTful Microservices to support a new feature introduced to the
+platform (Corporate Wellness application) using Spring Boot, Spring Data and
+other technologies.
             </td>     
         </tr>  
 </table>
