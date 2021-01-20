@@ -1,4 +1,4 @@
-### _**ABOUT ME**_
+# _**ABOUT ME**_
    
 <table style="border:none;">     
     <tr>         
@@ -12,7 +12,7 @@
 </table>
 <br><br>         
 
-### _**WORK EXPERIENCE**_
+# _**WORK EXPERIENCE**_
 
 <table style="border:none; table-layout:fixed;">     
     <tr>         
@@ -32,15 +32,15 @@ other technologies.
 </table>
 <br><br>
 
-## _**EDUCATION**_
+# _**EDUCATION**_
 
 <table style="border:none; table-layout:fixed;">     
     <tr>         
             <td style="border:none; padding:0 15px 0 15px;">
-               <b>University of Texas, Arlington<br><br>MSc. Computer Science and Engineering </b><br>(2018 - Current)<br><br> Current Master student of the school
+               <b>UNIVERSITY OF TEXAS, ARLINGTON<br><br>MSc. Computer Science and Engineering </b><br>(2018 - Current)<br><br> Current Master student of the school
             </td>         
             <td style="border:none; padding:0 15px 0 15px;">
-               <b>University of Peradeniya, Sri Lanka<br><br>Bachelor of Medicine, Bachelor of Surgery (MBBS)</b><br>(2008 -2014)<br><br> Medical degree in Sri Lanka
+               <b>UNIVERSITY OF PERADENIYA, SRI LANKA<br><br>Bachelor of Medicine, Bachelor of Surgery (MBBS)</b><br>(2008 -2014)<br><br> Medical degree in Sri Lanka
             </td>     
         </tr>  
 </table>
