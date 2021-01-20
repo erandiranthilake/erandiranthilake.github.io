@@ -2,8 +2,8 @@
    
 <table style="border-collapse:collapse;">     
     <tr>         
-        <td style="border:none;"><img src="images/pic.jpeg" alt="Erandi Ranthilake" width="1000" length="1000"></td>         
-        <td style="border:none;"><p align="justify">
+        <td style="border:none; padding:0 15px 0 15px;"><img src="images/pic.jpeg" alt="Erandi Ranthilake" width="1000" length="1000"></td>         
+        <td style="border:none; padding:0 15px 0 15px;"><p align="justify">
             An experienced Software Engineer, a highly motivated graduate student, with a robust academic foundation in Object- Oriented programming, Software Engineering, Database
                         Systems and Front-End Development.<br><br>Possesses a strong aptitude for learning and mastering
                         new technologies.<br><br>Excellent leadership skills, interpersonal skills and teamwork capabilities.
