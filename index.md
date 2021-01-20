@@ -1,6 +1,4 @@
----
-layout: default
----
+
 # _**ABOUT ME**_
    
 <table style="border:none;">     
