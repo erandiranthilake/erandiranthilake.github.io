@@ -21,10 +21,10 @@
     </tr>
     <tr>         
             <td style="border:none; padding:0 15px 0 15px;">
-               <b>Software Engineer<br><br>Goldman Sachs (October 2020 - Current)</b><br><br> Working as a software Engineer to develop internal systems related to cotroling the trades.
+               <b><h3>Software Engineer</h3><br><br>Goldman Sachs (October 2020 - Current)</b><br><br> Working as a software Engineer to develop internal systems related to cotroling the trades.
             </td>         
             <td style="border:none; padding:0 15px 0 15px;">
-               <b>Associate Software Engineer/ Software Development Intern<br><br>Virgin Pulse (April 2019 - October 2020)</b><br><br> Developed RESTful Microservices to support a new feature introduced to the
+               <b><h3>Associate Software Engineer/ Software Development Intern</h3><br><br>Virgin Pulse (April 2019 - October 2020)</b><br><br> Developed RESTful Microservices to support a new feature introduced to the
 platform (Corporate Wellness application) using Spring Boot, Spring Data and
 other technologies.
             </td>     
