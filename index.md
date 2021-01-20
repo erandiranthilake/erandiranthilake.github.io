@@ -14,15 +14,15 @@
 
 ## _**WORK EXPERIENCE**_
 
-<table style="border-collapse:collapse;">     
+<table style="border-collapse:collapse;" width=100%>     
     <tr>         
-        <td style="border:none; padding:0 15px 0 15px;"><img src="images/goldmanSachs.jpg" alt="Goldman Sachs Logo" width="100" length="100"></td>         
+        <td style="border:none; padding:0 15px 0 15px;" width=20%><img src="images/goldmanSachs.jpg" alt="Goldman Sachs Logo" width="100" length="100"></td>         
         <td style="border:none; padding:0 15px 0 15px;">
             <p align="justify"> Software Engineer<br>
             </p></td>     
     </tr>
     <tr>   
-        <td style="border:none; padding:0 15px 0 15px;"><img src="images/VirginPulseLogo.jpg" alt="Virgin Pulse Logo" width="100" length="100"></td>         
+        <td style="border:none; padding:0 15px 0 15px;" width=20%><img src="images/VirginPulseLogo.jpg" alt="Virgin Pulse Logo" width="100" length="100"></td>         
         <td style="border:none; padding:0 15px 0 15px;">
             <p align="justify">
             Associate Software Engineer/ Software Developer Intern
