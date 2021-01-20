@@ -14,6 +14,25 @@
 
 ## _**WORK EXPERIENCE**_
 
+<table width=100% style="border:none;">     
+    <tr>         
+        <td width=50% style="border:none; padding:0 15px 0 15px;"><img src="images/goldmanSachs.jpg" alt="Goldman Sachs Logo" width="200" length="200"></td>         
+        <td width=50% style="border:none; padding:0 15px 0 15px;"><img src="images/VirginPulseLogo.jpg" alt="Virgin Pulse Logo" width="200" length="200"></td>
+    </tr>
+    <tr>         
+            <td width=50% style="border:none; padding:0 15px 0 15px;">
+                <p align="justify"> Software Engineer
+                </p>
+            </td>         
+            <td widh=50% style="border:none; padding:0 15px 0 15px;">
+                <p align="justify"> Software Engineer
+                </p>
+            </td>     
+        </tr>  
+</table>
+
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
