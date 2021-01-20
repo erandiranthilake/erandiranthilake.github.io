@@ -9,6 +9,15 @@ Possesses a strong aptitude for learning and mastering
 new technologies.  
 Excellent leadership skills, interpersonal skills and teamwork capabilities.
 
+<table>     
+    <tr>         
+        <td><img src="/images/pic.jpeg" alt="Italian Trulli"></td>         
+        <td><img src="images/pic.jpeg" alt="Italian Trulli"></td>     
+    </tr> 
+</table>
+
+
+
 ### _Markdown_
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

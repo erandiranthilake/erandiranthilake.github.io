@@ -29,6 +29,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -53,5 +58,11 @@
       <updated>1611103222386</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="512" y="249" key="RollbackChangesDialog" timestamp="1611105054472">
+      <screen x="0" y="23" width="1792" height="1020" />
+    </state>
+    <state x="512" y="249" key="RollbackChangesDialog/0.23.1792.1020@0.23.1792.1020" timestamp="1611105054472" />
   </component>
 </project>
