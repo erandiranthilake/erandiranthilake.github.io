@@ -14,17 +14,17 @@
 
 ## _**WORK EXPERIENCE**_
 
-<table style="border:none;">     
+<table style="border:none; width:100%;">     
     <tr>         
-        <td style="border:none; padding:0 15px 0 15px;"><img src="images/goldmanSachs.jpg" alt="Goldman Sachs Logo" width="200" length="200"></td>         
-        <td style="border:none; padding:0 15px 0 15px;"><img src="images/VirginPulseLogo.jpg" alt="Virgin Pulse Logo" width="200" length="200"></td>
+        <td style="border:none; padding:0 15px 0 15px; width:50%;"><img src="images/goldmanSachs.jpg" alt="Goldman Sachs Logo" width="200" length="200"></td>         
+        <td style="border:none; padding:0 15px 0 15px; width:50%;"><img src="images/VirginPulseLogo.jpg" alt="Virgin Pulse Logo" width="200" length="200"></td>
     </tr>
     <tr>         
-            <td style="border:none; padding:0 15px 0 15px;">
+            <td style="border:none; padding:0 15px 0 15px; width:50%;">
                 <p align="justify"> Software Engineer
                 </p>
             </td>         
-            <td tyle="border:none; padding:0 15px 0 15px;">
+            <td style="border:none; padding:0 15px 0 15px; width:50%;">
                 <p align="justify"> Software Engineer
                 </p>
             </td>     
