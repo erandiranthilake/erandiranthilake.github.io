@@ -1,9 +1,9 @@
 ## **About me**
    
-<table>     
+<table border-collapse="collapse">     
     <tr>         
-        <td><img src="/images/pic.jpeg" alt="Italian Trulli"></td>         
-        <td><p align="justify">
+        <td border="none"><img src="images/pic.jpeg" alt="Italian Trulli"></td>         
+        <td border="none"><p align="justify">
             An experienced Software Engineer, a highly motivated graduate student, with a robust academic foundation in Object- Oriented programming, Software Engineering, Database
                         Systems and Front-End Development.<br>Possesses a strong aptitude for learning and mastering
                         new technologies.<br>Excellent leadership skills, interpersonal skills and teamwork capabilities.
