@@ -1,4 +1,4 @@
-## _**ABOUT ME**_
+### _**ABOUT ME**_
    
 <table style="border:none;">     
     <tr>         
@@ -12,7 +12,7 @@
 </table>
 <br><br>         
 
-## _**WORK EXPERIENCE**_
+### _**WORK EXPERIENCE**_
 
 <table style="border:none; table-layout:fixed;">     
     <tr>         
