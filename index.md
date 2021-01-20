@@ -2,7 +2,7 @@
    
 <table border-collapse="collapse">     
     <tr>         
-        <td border="none"><img src="images/pic.jpeg" alt="Italian Trulli"></td>         
+        <td border="none"><img src="images/pic.jpeg" alt="Erandi Ranthilake" width="500" length="500"></td>         
         <td border="none"><p align="justify">
             An experienced Software Engineer, a highly motivated graduate student, with a robust academic foundation in Object- Oriented programming, Software Engineering, Database
                         Systems and Front-End Development.<br>Possesses a strong aptitude for learning and mastering
