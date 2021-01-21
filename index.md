@@ -74,10 +74,7 @@ other technologies.
 
 ### _LET'S CONNECT_
 
-<table style="border:none;">     
-    <tr>         
-            <td style="border:none; padding:0 15px 0 15px;"><a href="https://www.linkedin.com/in/erandi-ranthilake/"><img src="images/linkedIn.jpg" alt="LinkedIn" style="width:42px;height:42px;"></a></td>         
-            <td style="border:none; padding:0 15px 0 15px;"><a href="https://twitter.com/explore"><img src="images/twitter.jpg" alt="LinkedIn" style="width:42px;height:42px;"></a></td>    
-    </tr>  
-</table>
+<a href="https://www.linkedin.com/in/erandi-ranthilake/"><img src="images/linkedIn.jpg" alt="LinkedIn" style="width:42px;height:42px;"></a>
+<a href="https://twitter.com/explore"><img src="images/twitter.jpg" alt="LinkedIn" style="width:42px;height:42px;"></a></td>
+
 <br><br>
