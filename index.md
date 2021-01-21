@@ -73,6 +73,12 @@ other technologies.
 </table>
 
 <br>
+
+<h3>BLOGS</h3><br>
+{%for post in site.posts%}
+    {{ post.title }}<br>
+{% endfor %}<br>
+
 <hr style="color:#9ddcff; background-color:#9ddcff;">
 
 ### _LET'S CONNECT_
