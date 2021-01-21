@@ -38,7 +38,11 @@
             </a>
 
             <h3>BLOGS</h3><br>
-            <a href="./_posts/blog1.md">Blog 1</a>
+          <ul>
+            {% for post in site.posts%}
+            <li>{{ post.title }}</li>
+            {% endfor %}
+          </ul>
 
             {% endif %}
         </aside>
