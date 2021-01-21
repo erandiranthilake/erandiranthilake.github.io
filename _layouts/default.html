@@ -36,6 +36,12 @@
               <small>Download</small>
               Resume
             </a>
+
+            <h3>BLOGS</h3><br>
+            {%for post in site.posts%}
+            {{ post.title }}<br>
+            {% endfor %}
+
             {% endif %}
         </aside>
       </div>
