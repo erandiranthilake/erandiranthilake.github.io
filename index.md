@@ -34,7 +34,10 @@ other technologies.
             </td>     
         </tr>  
 </table>
-<br><br>
+
+<br>
+<hr style="color:#9ddcff; background-color:#9ddcff;">
+<br>
 
 ## _**EDUCATION**_
 
@@ -48,7 +51,10 @@ other technologies.
             </td>     
         </tr>  
 </table>
-<br><br>
+
+<br>
+<hr style="color:#9ddcff; background-color:#9ddcff;">
+<br>
 
 ## _**PROJECTS**_
 
@@ -62,7 +68,10 @@ other technologies.
             </td>     
         </tr>  
 </table>
-<br><br>
+
+<br>
+<hr style="color:#9ddcff; background-color:#9ddcff;">
+<br>
 
 ### _**CONTACT ME**_
 
