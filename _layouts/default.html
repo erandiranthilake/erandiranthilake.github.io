@@ -38,9 +38,11 @@
             </a>
 
             <h3>BLOGS</h3><br>
-            {%for post in site.posts%}
-            {{ post.title }}<br>
+            <ul>
+            {% for post in site.posts %}
+               <li>{{ post.title }</li>
             {% endfor %}
+            </ul>
 
             {% endif %}
         </aside>
