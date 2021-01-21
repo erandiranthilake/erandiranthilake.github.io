@@ -30,12 +30,14 @@
           {{ content }}
         </section>
 
+        {% if page.title != "home" %}
         <aside id="sidebar">
             <a href="/images/resume.pdf" class="button">
               <small>Download</small>
               Resume
             </a>
         </aside>
+        {% endif %}
       </div>
     </div>
    
