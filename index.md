@@ -75,10 +75,11 @@ other technologies.
 <br>
 
 <h3>BLOGS</h3><br>
+<ul>
 {%for post in site.posts%}
-    {{ post.title }}<br>
+    <li>{{ post.title }</li>
 {% endfor %}<br>
-
+</ul>
 <hr style="color:#9ddcff; background-color:#9ddcff;">
 
 ### _LET'S CONNECT_
