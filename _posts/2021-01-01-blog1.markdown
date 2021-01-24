@@ -1,4 +1,7 @@
 ---
 layout : "post"
-title : "Blog 2"
+title : "Blog 1"
+author : "Erandi"
 ---
+
+This is blog 1
