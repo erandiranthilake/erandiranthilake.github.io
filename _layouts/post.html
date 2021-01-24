@@ -31,22 +31,23 @@
         </section>
 
         <aside id="sidebar">
-            {% if page.title == "home" %}
+            {% if page.hasGit == true %}
             <a href="/images/resume.pdf" class="button">
               <small>Download</small>
-              Resume
+              gitProject
             </a>
        
           <hr/>
           
-            <h2>BLOG</h2>
-          <ul>
-            {% for post in site.posts%}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
-
             {% endif %}
+
+            <h2>BLOG</h2>
+            <ul>
+              {% for post in site.posts%}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
+
         </aside>
       </div>
     </div>
