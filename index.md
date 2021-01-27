@@ -59,21 +59,10 @@ other technologies.
 <hr style="color:#9ddcff; background-color:#9ddcff;">
 <br>
 
-## _**PROJECTS**_
+## _**SKILLS**_
 
-<table style="border:none; table-layout:fixed;">     
-    <tr>         
-            <td style="border:none; padding:0 15px 0 15px;">
-               <b>UNIVERSITY OF TEXAS, ARLINGTON<br><br>MSc. Computer Science and Engineering </b><br>(2018 - Current)<br><br> Current Master student of the school
-            </td>         
-            <td style="border:none; padding:0 15px 0 15px;">
-               <b>UNIVERSITY OF PERADENIYA, SRI LANKA<br><br>Bachelor of Medicine, Bachelor of Surgery (MBBS)</b><br>(2008 -2014)<br><br> Medical degree in Sri Lanka
-            </td>     
-        </tr>  
-</table>
 
-<br>
-<hr style="color:#9ddcff; background-color:#9ddcff;">
+
 
 ### _LET'S CONNECT_
 
