@@ -4,6 +4,8 @@ title : "Kaggle Getting Started: Titanic Challenge"
 author : "Erandi Ranthilake"
 hasGit : false
 gitProject : ""
+hasLink : true
+link : "https://www.kaggle.com/erandiranthilake/kaggle-getting-started-with-titanic"
 ---
 <div style="text-align: justify"> 
 Constructing a model to train a large amount of data may seem like a daunting task, especially when the given data sets need additional pre-processing. More refined data sets available on the website <b>Kaggle.com</b> make this task easy as the data is well structured and explanatory. In addition to providing data, on the same website you can develop code on Notebooks that support well-known programming languages for Machine Learning model development, such as Python. 
