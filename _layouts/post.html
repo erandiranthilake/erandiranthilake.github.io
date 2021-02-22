@@ -40,6 +40,15 @@
           <hr/>
           
             {% endif %}
+          
+          {% if page.hasLink == true %}
+            <a href= "{{ page.link }}">
+              {{ page.linkTitle }}
+            </a>
+       
+          <hr/>
+          
+            {% endif %}
 
             <h2>BLOG</h2>
             <ul>
