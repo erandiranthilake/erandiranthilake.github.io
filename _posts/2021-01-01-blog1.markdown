@@ -21,7 +21,7 @@ Constructing a model to train a large amount of data may seem like a daunting ta
 It is also stimulating to participate in the Challenges by Kaggle.com to solve data-related problems using Machine Learning models. In this post, I would like to develop an in depth discussion about the process and the technique used to develop a model to predic survival in Titanic Challenge and a second model to improve the performance of the prediction as explained in the tutorial by Kaggle.<br><br>
 
 
-<img src="../images/titanicChallenge.jpeg" alt="Titanic Challenge"><br><br>
+<img src="titanicChallenge.jpeg" alt="Titanic Challenge"><br><br>
 
 <h2>Data</h2>
 Data used in this challenge is divided into two subsets, train, and test, and can be found in train.csv and test.csv files respectively. There are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>
