@@ -10,11 +10,14 @@ linkTitle: "Titanic Challenge : Notebook"
 
 ---
 <h2>Contribution :</h2>
-<h3>Technical Documentation of the Data Analysis process for Kaggle Titanic Challenge<br>
-Suggestions to improve the model using Neural Networks</h3>
+<h3>Technical Documentation for Random Forest Model developed in Kaggle Titanic Challenge Tutorial<br>
+Suggestions to improve the score using Artificial Neural Network Model </h3>
+<hr>
 
-<a href="https://www.kaggle.com/erandiranthilake/kaggle-getting-started-with-titanic">Link to Kaggle notebook</a>
+<a href="https://www.kaggle.com/erandiranthilake/kaggle-getting-started-with-titanic">Link to Kaggle notebook - Random Forest Model</a><br>
+<a href="https://www.kaggle.com/erandiranthilake/titanic-prediction-using-neural-network">Link to Kaggle notebook - Artificial Neural Network Model</a>
 
+<hr>
 <div style="text-align: justify"> 
 Constructing a model to train a large amount of data may seem like a daunting task, especially when the given data sets need additional pre-processing. More refined data sets available on the website <b>Kaggle.com</b> make this task easy as the data is well structured and explanatory. In addition to providing data, on the same website you can develop code on Notebooks that support well-known programming languages for Machine Learning model development, such as Python.<br><br>
   
@@ -68,7 +71,35 @@ Random forest is a well-known powerful classifier data model. When the outcome f
 
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
 
+<h2>Suggestions: Artificial Neural Network Model</h2>
+<h3>What is an Artifical Neural Network? </h3>
+
+Artificial Neural Networks are Deep learning models, that are inspired by the human neuronal system. These networks consist of several nodes in N number of layers, which include an input layer, several hidden layers, and an output layer. At each layer, there is a calculation done by using values of the bias and weights. Learning rates and cost functions are also used in these calculation. Learning of the models occurs through backpropagation and adjusting the weights of each layer.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
+
+<h3>How to develop the code for a Neural Networkt model? </h3>
+
+Python provides libraries such as Tensorflow and Keras, that can be utilized to achieve this task. We can develop N number of layers with the suitable cost function at each layer.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
+
+<h3>Challenges </h3>
+
+There can be various challenges related to developing neural networks.<br>
+1. Providing with necessary computation power.<br>
+2. Providing enough data to develop a successful model.<2>
+
+
 <hr>
+
+<h2>References</h2> 
+
+1. <a href="https://www.kaggle.com/alexisbcook/titanic-tutorial">Titanic Tutorial</a>
+2. <a href="https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/">Decision Tree Vs Random Forest</a>
+3. <a href="https://towardsdatascience.com/from-a-single-decision-tree-to-a-random-forest-b9523be65147">Random Forest</a>
+4. <a href="https://www.youtube.com/watch?v=nxFG5xdpDto&ab_channel=KrishNaik">Random Forest Development</a>
+5. <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">Neural Networks</a>
 
 </div>
 
