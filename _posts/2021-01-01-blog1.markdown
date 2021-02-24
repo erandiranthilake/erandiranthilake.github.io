@@ -9,9 +9,9 @@ link : "https://www.kaggle.com/erandiranthilake/kaggle-getting-started-with-tita
 linkTitle: "Titanic Challenge : Notebook"
 
 ---
-<h3>Contribution :</h3>
-<h4>Technical Documentation of the Data Analysis process for Kaggle Titanic Challenge<br>
-Suggestions to improve the model using Neural Networks</h4>
+<h2>Contribution :</h2>
+<h3>Technical Documentation of the Data Analysis process for Kaggle Titanic Challenge<br>
+Suggestions to improve the model using Neural Networks</h3>
 
 <a href="https://www.kaggle.com/erandiranthilake/kaggle-getting-started-with-titanic">Link to Kaggle notebook</a>
 
@@ -23,20 +23,20 @@ It is also stimulating to participate in the Challenges by Kaggle.com to solve d
 
 image of the titanic challenge.<br><br>
 
-<h4>Data</h4>
+<h2>Data</h2>
 Data used in this challenge is divided into two subsets, train, and test, and can be found in train.csv and test.csv files respectively. There are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>
 
 image for data<br><br>
   
-<h4>Submission based on the Gender of Passenger</h4> 
+<h2>Submission based on the Gender of Passenger</h2> 
 In order to understand the submission process, users are provided with a file that is developed based on the gender of the passenger. A crude assumption is made that the females in the ship survived as the males did not. Based on this raw assumption, a submission file is developed to indicate the survival against the passenger id. <br><br>
 
 When this file is submitted we get a score of 0.76555, indicating a 75.66% correctness of the predictions.<br><br>
 
 The image of the first submission goes here. <br><br>
 
-<h4>Random Forrest Model</h4> 
-<h5>What is Random Forest Algorithm? </h5> 
+<h2>Random Forrest Model</h2> 
+<h3>What is Random Forest Algorithm? </h3> 
 
 Random Forrest Algorithm is a Supervised learning algorithm, capable of performing both regression and classification tasks. This algorithm creates a forest consists of an N number of decision trees. In general, The higher the number of decision trees, the more accurate the output.<br><br>
 
@@ -44,13 +44,13 @@ When developing the algorithm, for each tree, a number of random data rows and a
 
 image of the random forrest<br><br>
 
-<h5>Why random forest over a single Decision Tree? </h5>
+<h3>Why random forest over a single Decision Tree? </h3>
 
 When a single decision tree is developed to the full depth using train data, such a tree would contain a low bias and a  high variance. When the test data is fed to such models, the error of the output is very high and the accuracy of prediction is very low. Therefore it is paramount to bring the variance of the prediction model to a low. With Random forest, this task is achieved by row sampling and feature sampling, as well as a majority vote.<br><br>
 
 Image of a single tree vs forest.<br><br>
 
-<h5>How to develop the code for a Random forest model? </h5>
+<h3>How to develop the code for a Random forest model? </h3>
 
 First, we need to read from the data files and load the data into a Dataframe.<br><br>
 
@@ -60,7 +60,7 @@ Next, we need to develop the model. Here, we have used the <b>RandomForrestClass
 
 Image for the random forest classifier.<br><br>
 
-<h5>Did it improve the performance? </h5>
+<h3>Did it improve the performance? </h3>
 
 Random forest is a well-known powerful classifier data model. When the outcome for the test data from the model we developed is submitted to Kaggle, we can see the prediction is well improved.<br><br>
 
