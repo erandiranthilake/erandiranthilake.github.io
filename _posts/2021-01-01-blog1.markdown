@@ -65,7 +65,7 @@ Next, we need to develop the model. Here, we have used the <b>RandomForrestClass
 
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/randomforestModel.JPG" alt="Random Forest Classifier Model"><br><br>
 
-<h3>Did it improve the performance? </h3>
+<h3>Did the model improve the score? </h3>
 
 Random forest is a well-known powerful classifier data model. When the outcome for the test data from the model we developed is submitted to Kaggle, we can see the prediction is well improved.<br><br>
 
@@ -96,11 +96,11 @@ There can be various challenges related to developing neural networks.<br>
 
 <h2>References</h2> 
 
-1. <a href="https://www.kaggle.com/alexisbcook/titanic-tutorial">Titanic Tutorial</a>
-2. <a href="https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/">Decision Tree Vs Random Forest</a>
-3. <a href="https://towardsdatascience.com/from-a-single-decision-tree-to-a-random-forest-b9523be65147">Random Forest</a>
-4. <a href="https://www.youtube.com/watch?v=nxFG5xdpDto&ab_channel=KrishNaik">Random Forest Development</a>
-5. <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">Neural Networks</a>
+1. <a href="https://www.kaggle.com/alexisbcook/titanic-tutorial">Titanic Tutorial</a><br>
+2. <a href="https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/">Decision Tree Vs Random Forest</a><br>
+3. <a href="https://towardsdatascience.com/from-a-single-decision-tree-to-a-random-forest-b9523be65147">Random Forest</a><br>
+4. <a href="https://www.youtube.com/watch?v=nxFG5xdpDto&ab_channel=KrishNaik">Random Forest Development</a><br>
+5. <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">Neural Networks</a><br><br>
 
 </div>
 
