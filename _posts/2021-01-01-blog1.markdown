@@ -72,19 +72,20 @@ Random forest is a well-known powerful classifier data model. When the outcome f
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
 
 <h2>Suggestions: Artificial Neural Network Model</h2>
-<h3>What is an Artifical Neural Network? </h3>
+<h3>What is an Artificial Neural Network? </h3>
 
 Artificial Neural Networks are Deep learning models, that are inspired by the human neuronal system. These networks consist of several nodes in N number of layers, which include an input layer, several hidden layers, and an output layer. At each layer, there is a calculation done by using values of the bias and weights. Learning rates and cost functions are also used in these calculation. Learning of the models occurs through backpropagation and adjusting the weights of each layer.<br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron.JPG" alt="Human Neuron"><br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ANN.JPG" alt="ANN"><br><br>
 
 <h3>How to develop the code for a Neural Networkt model? </h3>
 
 Python provides libraries such as Tensorflow and Keras, that can be utilized to achieve this task. We can develop N number of layers with the suitable cost function at each layer.<br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ANNModel.JPG" alt="ANN Model"><br><br>
 
-<h3>Challenges </h3>
+<h3>Challenges Developing Artificial Neural Networks </h3>
 
 There can be various challenges related to developing neural networks.<br>
 1. Providing with necessary computation power.<br>
