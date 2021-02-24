@@ -26,7 +26,8 @@ It is also stimulating to participate in the Challenges by Kaggle.com to solve d
 <h2>Data</h2>
 Data used in this challenge is divided into two subsets, train, and test, and can be found in train.csv and test.csv files respectively. There are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>
 
-image for data<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/data.JPG" alt="Data"><br><br>
+
   
 <h2>Submission based on the Gender of Passenger</h2> 
 In order to understand the submission process, users are provided with a file that is developed based on the gender of the passenger. A crude assumption is made that the females in the ship survived as the males did not. Based on this raw assumption, a submission file is developed to indicate the survival against the passenger id. <br><br>
