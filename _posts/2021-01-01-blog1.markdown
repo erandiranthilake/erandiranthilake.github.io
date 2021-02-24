@@ -32,9 +32,9 @@ Data used in this challenge is divided into two subsets, train, and test, and ca
 <h2>Submission based on the Gender of Passenger</h2> 
 In order to understand the submission process, users are provided with a file that is developed based on the gender of the passenger. A crude assumption is made that the females in the ship survived as the males did not. Based on this raw assumption, a submission file is developed to indicate the survival against the passenger id. <br><br>
 
-When this file is submitted we get a score of 0.76555, indicating a 75.66% correctness of the predictions.<br><br>
+When this file is submitted we get a score of 0.76555, indicating a 76.55% correctness of the predictions.<br><br>
 
-The image of the first submission goes here. <br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/genderSubmission.JPG" alt="Gender Submission"><br><br>
 
 <h2>Random Forrest Model</h2> 
 <h3>What is Random Forest Algorithm? </h3> 
@@ -43,28 +43,32 @@ Random Forrest Algorithm is a Supervised learning algorithm, capable of perform
 
 When developing the algorithm, for each tree, a number of random data rows and a number of random feature columns are selected. Based on this selection, each tree is trained to make a prediction of the output. For the classification problems, the majority vote is selected considering outputs from all the trees. For the regression problems, the mean or the median value of the outputs from the trees is selected based on the distribution of the data.<br><br>
 
-image of the random forrest<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/randomForest.JPG" alt="Random Forest"><br><br>
+
 
 <h3>Why random forest over a single Decision Tree? </h3>
 
 When a single decision tree is developed to the full depth using train data, such a tree would contain a low bias and a  high variance. When the test data is fed to such models, the error of the output is very high and the accuracy of prediction is very low. Therefore it is paramount to bring the variance of the prediction model to a low. With Random forest, this task is achieved by row sampling and feature sampling, as well as a majority vote.<br><br>
 
-Image of a single tree vs forest.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/DT.JPG" alt="Decision Tree"><br><br>
 
 <h3>How to develop the code for a Random forest model? </h3>
 
 First, we need to read from the data files and load the data into a Dataframe.<br><br>
 
-Image of notebook loading data.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/loadData.JPG" alt="Note Book"><br><br>
 
 Next, we need to develop the model. Here, we have used the <b>RandomForrestClassifier</b> from the sci-kit learn library in python. We can fit the model using the train data and predict the outcome for the test data. The following model contains 100 Decision trees and developed 5 layers in depth.<br><br>
 
-Image for the random forest classifier.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/randomforestModel.JPG" alt="Random Forest Classifier Model"><br><br>
 
 <h3>Did it improve the performance? </h3>
 
 Random forest is a well-known powerful classifier data model. When the outcome for the test data from the model we developed is submitted to Kaggle, we can see the prediction is well improved.<br><br>
 
-Image to compare the submissions.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
+
+<hr>
 
 </div>
+
