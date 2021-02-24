@@ -9,6 +9,24 @@ link : "https://www.kaggle.com/erandiranthilake/kaggle-getting-started-with-tita
 linkTitle: "Titanic Challenge : Notebook"
 
 ---
+<h3>Contribution :</h3>
+<h4>Technical Documentation of the Data Analysis process for Kaggle Titanic Challenge<br>
+Suggestions to improve the model using Neural Networks</h4>
+
+<a href="https://www.kaggle.com/erandiranthilake/kaggle-getting-started-with-titanic">Link to Kaggle notebook</a>
+
 <div style="text-align: justify"> 
-Constructing a model to train a large amount of data may seem like a daunting task, especially when the given data sets need additional pre-processing. More refined data sets available on the website <b>Kaggle.com</b> make this task easy as the data is well structured and explanatory. In addition to providing data, on the same website you can develop code on Notebooks that support well-known programming languages for Machine Learning model development, such as Python. 
+Constructing a model to train a large amount of data may seem like a daunting task, especially when the given data sets need additional pre-processing. More refined data sets available on the website <b>Kaggle.com</b> make this task easy as the data is well structured and explanatory. In addition to providing data, on the same website you can develop code on Notebooks that support well-known programming languages for Machine Learning model development, such as Python.<br><br>
+  
+It is also stimulating to participate in the Challenges by Kaggle.com to solve data-related problems using Machine Learning models. In this post, I would like to discuss the process and technique used to develop a model to predic survival in Titanic Challenge and a second model to improve the performance of the prediction.<br><br>
+
+
+image of the titanic challenge.<br><br>
+
+<h2>Data</h2>
+Data used in this challenge is divided into two subsets, train and test, and can be found in train.csv and test.csv files respectively. THere are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>
+
+image for data<br><br>
+  
+ 
 </div>
