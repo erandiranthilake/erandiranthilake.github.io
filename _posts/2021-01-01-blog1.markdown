@@ -25,6 +25,7 @@ It is also stimulating to participate in the Challenges by Kaggle.com to solve d
 
 
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/titanicChallenge.jpg" alt="Titanic Challenge"><br><br>
+Image Courtesy: Kaggle.com
 
 <h2>Data</h2>
 Data used in this challenge is divided into two subsets, train, and test, and can be found in train.csv and test.csv files respectively. There are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>

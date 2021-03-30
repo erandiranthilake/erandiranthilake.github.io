@@ -10,6 +10,15 @@ linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
 
 ---
 <h2>Contribution :</h2>
-<h3>Technical Documentation for Random Forest Model developed in Kaggle Titanic Challenge Tutorial<br>
-Suggestions to improve the score using Artificial Neural Network Model </h3>
+<h3>Technical Documentation for Image Classification and Convolutional Neural Network<br>
+Suggestions to improve the average score by changing various parameters </h3>
 <hr>
+
+<a href="https://github.com/erandiranthilake/CIFAR10_Image_classification">Link to Image classifier Notebook</a><br>
+<hr>
+
+<h2>Image Classification</h2>
+Image classification refers to the task of categorizing images into N number of predefined classes. Though it seems like an effortless task for an human eye, for an automated system, this is a complicated task that presented with many challenges. As there are number of use cases for developing such a system, computer scientists continue to research in areas to improve image classification. One of such effort is using Deep learning techniques to accomplish the task. It has been successful to use Convolutional Neural Networks to classify images and also accomplish task beyond, such as object detection, object segmentation and instance segmentation.<br><br>
+
+<h2>Convolutional Neural Network</h2>
+.<br><br>
