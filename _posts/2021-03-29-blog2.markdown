@@ -23,7 +23,12 @@ Image classification refers to the task of categorizing images into N number of 
 
 <h2>Convolutional Neural Network</h2>
 A convolutional neural network (CNN) is composed of a backbone structure and heads. The central structure function as the main feature extractor which consist of multiple Convolutional layers, filters and pooling layers. The heads in the model composed of the classifiers, predictors, optimizers, and other techniques that used to fine-tune the overall performance of the model.
-In image classification Convolutional Neural Networks are preferred over other techniques as they exhibit superior feature extraction capabilities at a lower computational cost.<br><br>
+In image classification Convolutional Neural Networks are preferred over other techniques as they exhibit superior feature extraction capabilities at a lower computational cost.<br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/CNN_model.JPG" alt="CNN Model"><br><br>
+Source: ML Practicum: Image Classification
+
+<br>
+
 
 <h2>Image Classification using CIFAR 10 and CNN model</h2>
 <br><br>
