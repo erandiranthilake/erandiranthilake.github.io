@@ -1,0 +1,15 @@
+---
+layout : "post"
+title : "Image Classification using Convolutional Neural Networks"
+author : "Erandi Ranthilake"
+hasGit : false
+gitProject : ""
+hasLink : true
+link : "https://erandiranthilake.github.io/"
+linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
+
+---
+<h2>Contribution :</h2>
+<h3>Technical Documentation for Random Forest Model developed in Kaggle Titanic Challenge Tutorial<br>
+Suggestions to improve the score using Artificial Neural Network Model </h3>
+<hr>
