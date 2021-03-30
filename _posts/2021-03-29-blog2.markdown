@@ -38,7 +38,12 @@ CNN model (Source: Tensorflow Tutorial)
 <br><br>
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/model_summary.JPG" alt="CNN Model summary"><br>
 Model Summary
-<br>
+<br><br>
+Model is trained using 'Adam' Optimizer and 'sparse_categorical_crossentropy' as the loss function.
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/model_train.JPG" alt="CNN Model codebase"><br>
+Training model
+<br><br>
 
 <br><br>
 
