@@ -55,6 +55,14 @@ Model is trained using 'Adam' Optimizer and 'sparse_categorical_crossentropy' as
 <h3>Comparison of Models based on Neuron Count</h3>
 Following different models are developed to compare the base accuracies against different neuron counts.
 <br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_box.JPG" alt="CNN Model summary"><br>
+<i>Models and neuron counts in each layery</i>
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_chart.JPG" alt="CNN Model summary"><br>
+<i>Average Accuracy of each model</i>
+<br><br>
+Based on the above findings we can conclude that performance of the model improves with increasing number of neurons in each layer.
+<br><br>
 
 <br><br>
 
