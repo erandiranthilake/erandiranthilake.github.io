@@ -11,7 +11,7 @@ linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
 ---
 <h2>Contribution :</h2>
 <h3>Technical Documentation for Image Classification and Convolutional Neural Network<br>
-Implementation and comparison of various models to improve the average score by changing various parameters of a base CNN model </h3>
+Implementation and comparison of various models to improve the average accuracy by changing various parameters of a base CNN model </h3>
 <hr>
 
 <a href="https://github.com/erandiranthilake/CIFAR10_Image_classification">Link to Image classifier Notebook</a><br>
