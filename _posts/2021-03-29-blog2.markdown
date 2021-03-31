@@ -37,9 +37,9 @@ In image classification Convolutional Neural Networks are preferred over other t
 <br><br>
 
 <h2>What is the best model for image classification?</h2>
-Image classification, object detection and other important areas of computer vision have numerous applications in different fields such as security, medical, surveillance, etc. Although Convolutional neural networks have been identified as one of the best methodologies to develop model for image classification, there are number of parameters that can be responsible for the efficiency and accuracy of the model. On going research have identified that deep networks can improve accuracy of the models, where as shallow networks are more efficient. Nevertheless, possibility of improving CNN models by fine tuning different parameters is an area, researched extensively.
+Image classification, object detection and other important areas of computer vision have numerous applications in different fields such as security, medical, surveillance, etc. Although Convolutional neural networks have been identified as one of the best methodologies to develop models for image classification, there are number of parameters that can account for the efficiency and accuracy of these models. Ongoing research have identified that <b>deep networks</b> can improve accuracy of the models, where as <b>shallow networks</b> are more efficient. Nevertheless, possibility of improving CNN models by fine-tuning different parameters is an area researched extensively.
 <br><br>
-The effort of this article is to identify some of such parameters that can affect the accuracy of models and improve an existing base model using those parameters.
+The effort of this article is to identify some of these parameters that can affect the accuracy of models and try to improve an existing base model using those parameters.
 <br><br>
 
 <h3>Image Classification using CIFAR 10 and CNN model : <b>Base Model</b></h3>
