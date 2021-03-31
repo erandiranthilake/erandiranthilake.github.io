@@ -83,7 +83,7 @@ Based on the above findings we can conclude that performance of the model improv
 <br><br>
 
 <h2>Challenges</h2>
-Main challenge that was faced during the process was limitation of machine power to process increased number of layers and larger data sets. As a measure to overcome the issues at times the models were run through limited data sets. Possible improvement concerning machine power is using GPU.
+Main challenge faced during the process was limitation of machine power to process increased number of layers and larger data sets. As a measure to overcome these issues, at times the models were run through limited data sets. Possible improvement concerning machine power is using GPU.
 <br><br>
 
 <br><br>
