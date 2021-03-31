@@ -27,13 +27,13 @@ In image classification Convolutional Neural Networks are preferred over other t
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/CNN_model.JPG" alt="CNN Model"><br>
 Source: ML Practicum: Image Classification
 <br><br>
-<b>Input Layer:<b> Some networks consis of an input layer which load teh images and uses a resulting output to load to convolutional layer. Various operations can take place in this layer as preparations for the next layers, such as, mean-substraction and feature-scaling.
+<b>Input Layer:</b> Some networks consis of an input layer which load teh images and uses a resulting output to load to convolutional layer. Various operations can take place in this layer as preparations for the next layers, such as, mean-substraction and feature-scaling.
 <br>
-<b>Convolutional layer:<b>This is the main feature extraction or learning layer in the network. Convolutional layer convolves the input with a set of filters which produces a feature map in the output.
+<b>Convolutional layer:</b>This is the main feature extraction or learning layer in the network. Convolutional layer convolves the input with a set of filters which produces a feature map in the output.
 <br>
-<b>Pooling layer:<b>This layer is responsible for reducing the spatial dimension of teh input. There is a Pooling layer after each convolutional layer.
+<b>Pooling layer:</b>This layer is responsible for reducing the spatial dimension of teh input. There is a Pooling layer after each convolutional layer.
 <br>
-<b>Fully connected layer:<b>This layer consider the input as a single vector and produce a single vector as the output. With in the same layer an activation function such as 'softmax activation' can be used to categorize teh final output.
+<b>Fully connected layer:</b>This layer consider the input as a single vector and produce a single vector as the output. With in the same layer an activation function such as 'softmax activation' can be used to categorize teh final output.
 <br>
 
 <h2>Image Classification using CIFAR 10 and CNN model</h2>
