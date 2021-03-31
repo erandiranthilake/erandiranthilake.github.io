@@ -86,6 +86,13 @@ Based on the above findings we can conclude that performance of the model improv
 Main challenge faced during the process was limitation of machine power to process increased number of layers and larger data sets. As a measure to overcome these issues, at times the models were run through limited data sets. Possible improvement concerning machine power is using GPU.
 <br><br>
 
+<hr>
+
+<h2>References</h2> 
+1. <a href="https://www.tensorflow.org/tutorials/images/cnn">TensorFlow Tutorial</a><br>
+2. <a href="https://www.altexsoft.com/blog/image-recognition-neural-networks-use-cases/">Image Recognition with Deep Neural Networks and its Use Cases</a><br>
+3. <a href="https://www.researchgate.net/profile/Wu-Xiongwei/publication/335135074_Recent_Advances_in_Deep_Learning_for_Object_Detection/links/5e27f1c8a6fdcc70a140e4ac/Recent-Advances-in-Deep-Learning-for-Object-Detection.pdf">Recent Advances in Deep Learning for Object Detection</a><br>
+4. <a href="https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-networks">ML Practicum: Image Classification</a><br>
 <br><br>
 
 </div>
