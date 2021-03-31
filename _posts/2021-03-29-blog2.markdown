@@ -82,6 +82,18 @@ Following different models are developed to compare the base accuracies against 
 Based on the above findings we can conclude that performance of the model improves with decreasing filter sizes.
 <br><br>
 
+<h3>Comparison of Models based on Number of Layers</h3>
+Following different models are developed to compare the base accuracies against different number of layers.
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/layers_table.JPG" alt="filter_size_table"><br>
+<i>Models and neuron counts in each layer</i>
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/layers_chart.JPG" alt="filter_size_chart"><br>
+<i>Average Accuracy of each model</i>
+<br><br>
+Based on the above findings we can conclude that performance of the model decreases when the number of layers are considerably low or high. Performance of the model was high when the number of layers is 4.
+<br><br>
+
 <h2>Challenges</h2>
 Main challenge faced during the process was limitation of machine power to process increased number of layers and larger data sets. As a measure to overcome these issues, at times the models were run through limited data sets. Possible improvement concerning machine power is using GPU.
 <br><br>
