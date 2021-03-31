@@ -34,10 +34,16 @@ In image classification Convolutional Neural Networks are preferred over other t
 <b>Pooling layer:</b>This layer is responsible for reducing the spatial dimension of teh input. There is a Pooling layer after each convolutional layer.
 <br>
 <b>Fully connected layer:</b>This layer consider the input as a single vector and produce a single vector as the output. With in the same layer an activation function such as 'softmax activation' can be used to categorize teh final output.
-<br>
+<br><br>
 
-<h2>Image Classification using CIFAR 10 and CNN model</h2>
-A base CNN model is developed using 'Keras' Python library. 
+<h2>What is the best model for image classification?</h2>
+Image classification, object detection and other important areas of computer vision have numerous applications in different fields such as security, medical, surveillance, etc. Although Convolutional neural networks have been identified as one of the best methodologies to develop model for image classification, there are number of parameters that can be responsible for the efficiency and accuracy of the model. On going research have identified that deep networks can improve accuracy of the models, where as shallow networks are more efficient. Nevertheless, possibility of improving CNN models by fine tuning different parameters is an area, researched extensively.
+<br><br>
+The effort of this article is to identify some of such parameters that can affect the accuracy of models and improve an existing base model using those parameters.
+<br><br>
+
+<h3>Image Classification using CIFAR 10 and CNN model : <b>Base Model</b></h3>
+A base CNN model is developed using 'Keras' Python library.<br>
 Base model consists of three convolutional layers with 4, 8, 16 neurons in each layer. A filter size of 7 * 7 is used with padding 'same'.
 <br><br>
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/model_code.JPG" alt="CNN Model codebase"><br>
@@ -55,13 +61,29 @@ Model is trained using 'Adam' Optimizer and 'sparse_categorical_crossentropy' as
 <h3>Comparison of Models based on Neuron Count</h3>
 Following different models are developed to compare the base accuracies against different neuron counts.
 <br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_box.JPG" alt="CNN Model summary"><br>
-<i>Models and neuron counts in each layery</i>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_box.JPG" alt="neuron_count_table"><br>
+<i>Models and neuron counts in each layer</i>
 <br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_chart.JPG" alt="CNN Model summary"><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_chart.JPG" alt="neuron_count_chart"><br>
 <i>Average Accuracy of each model</i>
 <br><br>
 Based on the above findings we can conclude that performance of the model improves with increasing number of neurons in each layer.
+<br><br>
+
+<h3>Comparison of Models based on Filter size</h3>
+Following different models are developed to compare the base accuracies against different filter sizes.
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/filter_size_table.JPG" alt="filter_size_table"><br>
+<i>Models and neuron counts in each layer</i>
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/filter_size_chart.JPG" alt="filter_size_chart"><br>
+<i>Average Accuracy of each model</i>
+<br><br>
+Based on the above findings we can conclude that performance of the model improves with decreasing filter sizes.
+<br><br>
+
+<h2>Challenges</h2>
+Main challenge that was faced during the process was limitation of machine power to process increased number of layers and larger data sets. As a measure to overcome the issues at times the models were run through limited data sets. Possible improvement concerning machine power is using GPU.
 <br><br>
 
 <br><br>
