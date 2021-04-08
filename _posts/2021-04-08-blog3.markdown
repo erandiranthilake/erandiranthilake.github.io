@@ -26,10 +26,11 @@ Overfitting a model can be simply explainded as modelling a function too closely
 
 <h2>Demonstrating overfitting</h2>
 In the developed notebook, smaller training sample is generated using y = sin(2*pi*X) + 0.1 * N<br>
-Using root mean squre error, polynomial regression for different order (0, 1, 3, 9) is assessed<br>
+Using root mean squre error, polynomial regression for different order (0, 1, 3, 9) is assessed<br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/CNN_model.JPG" alt="CNN Model"><br>
-<i>Source: ML Practicum: Image Classification</i>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree1.JPG" alt="polynomial degree"><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree2.JPG" alt="polynomial degree"><br>
+<i>Source: Data points plotted at different degrees</i>
 <br><br>
 
 
