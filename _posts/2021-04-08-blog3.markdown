@@ -10,7 +10,7 @@ linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
 
 ---
 <h2>Contribution :</h2>
-<h3>Technical Documentation for Overfitting of Models and Different resolution methods<br>
+<h3>Technical Documentation for Overfitting of Models<br>
 Implementation and comparison of models based on Root Mean Squre Error and R2 Score </h3>
 <hr>
 
@@ -49,26 +49,30 @@ Overfitting can be seen when the degree is 9. In order to numberically demonstra
 <br>
 
 
-<h2>What is the best model for image classification?</h2>
-Image classification, object detection and other important areas of computer vision have numerous applications in different fields such as security, medical, surveillance, etc. Although Convolutional neural networks have been identified as one of the best methodologies to develop models for image classification, there are number of parameters that can account for the efficiency and accuracy of these models. Ongoing research have identified that <b>deep networks</b> can improve accuracy of the models, where as <b>shallow networks</b> are more efficient. Nevertheless, possibility of improving CNN models by fine-tuning different parameters is an area researched extensively.
-<br><br>
-The effort of this article is to identify some of these parameters that can affect the accuracy of models and try to improve an existing base model using those parameters.
+<h2>How to prevent overfitting?</h2>
+There are several identified ways to prevent overfitting. In this post we will dicuss preventing over fitting by increasing the amount of data points and through regularization
 <br><br>
 
-<h3>Image Classification using CIFAR 10 and CNN model : <b>Base Model</b></h3>
-A base CNN model is developed using 'Keras' Python library.<br>
-Base model consists of three convolutional layers with 4, 8, 16 neurons in each layer. A filter size of 7 * 7 is used with padding 'same'.
+<h3>Increasing the number of Data points</h3>
+As oppose to using 10 data points to train, we will use 100 Data points and a 9th order model to compare the results.
 <br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/model_code.JPG" alt="CNN Model codebase"><br>
-<i>CNN model (Source: Tensorflow Tutorial)</i>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_data100.JPG" alt="increased data">
+<i>Number of data point vs fitting of the model</i>
 <br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/model_summary.JPG" alt="CNN Model summary"><br>
-<i>Model Summary</i>
+
+We can clearely observe that the overfitting no longer exist when the number of data points is increased.
 <br><br>
-Model is trained using 'Adam' Optimizer and 'sparse_categorical_crossentropy' as the loss function.
+
+<h3>Regularization</h3>
+We will be using a predefined regularization calculation to regularize the model and train the model. 
 <br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/model_train.JPG" alt="CNN Model codebase"><br>
-<i>Training model</i>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_data100.JPG" alt="increased data">
+<i>Number of data point vs fitting of the model</i>
+<br><br>
+
+We can clearely observe that the overfitting no longer exist when the number of data points is increased.
 <br><br>
 
 <h3>Comparison of Models based on Neuron Count</h3>
