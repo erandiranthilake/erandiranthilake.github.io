@@ -21,7 +21,7 @@ Implementation and comparison of models based on Root Mean Squre Error and R2 Sc
 <h2>Overfitting a model</h2>
 Overfitting a model can be simply explainded as modelling a function too closely fit to a given set of data points. As the data used to train the models have a some degree of error in them, when overfitting occurs this inaccurate data infect the model leading to a substantial error. This reduces the predictive power of the model.<br><br>
 
-<b>Reasons for Overfitting</b> are mainly using limited training data set and using complex algorythms or training techniques. You can <b>identify overfitting</b> when you see a small training error and a large testing error<br>
+<b>Reasons for Overfitting</b> are mainly using limited training data set and using complex algorythms or training techniques. We can <b>identify overfitting</b> when there is a  smaller training error and a larger testing error<br>
 
 
 <h2>Demonstrating overfitting</h2>
@@ -29,19 +29,17 @@ In the developed notebook, smaller training sample is generated using y = sin(2*
 Using root mean squre error, polynomial regression for different order (0, 1, 3, 9) is assessed<br><br>
 
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree1.JPG" alt="polynomial degree"><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree2.JPG" alt="polynomial degree"><br>
-<i>Source: Data points plotted at different degrees</i>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree3.JPG" alt="polynomial degree"><br>
+<i>Data points plotted at different degrees</i>
 <br><br>
 
+Overfitting can be seen when the degree is 9. In order to numberically demonstrate overfitting we can calculate the training error and testing error in increasing degrees.<br><br>
 
-<b>Input Layer:</b> Some networks consis of an input layer which load teh images and uses a resulting output to load to convolutional layer. Various operations can take place in this layer as preparations for the next layers, such as, mean-substraction and feature-scaling.
-<br>
-<b>Convolutional layer:</b>This is the main feature extraction or learning layer in the network. Convolutional layer convolves the input with a set of filters which produces a feature map in the output.
-<br>
-<b>Pooling layer:</b>This layer is responsible for reducing the spatial dimension of teh input. There is a Pooling layer after each convolutional layer.
-<br>
-<b>Fully connected layer:</b>This layer consider the input as a single vector and produce a single vector as the output. With in the same layer an activation function such as 'softmax activation' can be used to categorize teh final output.
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/error_graph.JPG" alt="error"><br>
+<i>Training Error vs Testing Error</i>
 <br><br>
+<br>
+
 
 <h2>What is the best model for image classification?</h2>
 Image classification, object detection and other important areas of computer vision have numerous applications in different fields such as security, medical, surveillance, etc. Although Convolutional neural networks have been identified as one of the best methodologies to develop models for image classification, there are number of parameters that can account for the efficiency and accuracy of these models. Ongoing research have identified that <b>deep networks</b> can improve accuracy of the models, where as <b>shallow networks</b> are more efficient. Nevertheless, possibility of improving CNN models by fine-tuning different parameters is an area researched extensively.
