@@ -28,12 +28,20 @@ Overfitting a model can be simply explainded as modelling a function too closely
 In the developed notebook, smaller training sample is generated using y = sin(2*pi*X) + 0.1 * N<br>
 Using root mean squre error, polynomial regression for different order (0, 1, 3, 9) is assessed<br><br>
 
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_degree.JPG" alt="code degree"><br>
+<i>Code base for models</i>
+<br><br>
+
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree1.JPG" alt="polynomial degree"><br>
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree3.JPG" alt="polynomial degree"><br>
 <i>Data points plotted at different degrees</i>
 <br><br>
 
 Overfitting can be seen when the degree is 9. In order to numberically demonstrate overfitting we can calculate the training error and testing error in increasing degrees.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_error.JPG" alt="code error"><br>
+<i>Code base for calculating error at different degrees</i>
+<br><br>
 
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/error_graph.JPG" alt="error"><br>
 <i>Training Error vs Testing Error</i>
