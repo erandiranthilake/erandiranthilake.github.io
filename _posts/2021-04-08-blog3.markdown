@@ -43,7 +43,7 @@ Overfitting can be seen when the degree is 9. In order to numberically demonstra
 <i>Code base for calculating error at different degrees</i>
 <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/error_graph.JPG" alt="error"><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_error.JPG" alt="error"><br>
 <i>Training Error vs Testing Error</i>
 <br><br>
 <br>
