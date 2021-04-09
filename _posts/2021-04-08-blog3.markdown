@@ -65,14 +65,18 @@ We can clearely observe that the overfitting no longer exist when the number of 
 <br><br>
 
 <h3>Regularization</h3>
-We will be using a predefined regularization calculation to regularize the model and train the model. 
+We will be using a predefined regularization calculation to regularize the model and train the model. THe behaviour of the model is observed with changing alpha values.
 <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_data100.JPG" alt="increased data">
-<i>Number of data point vs fitting of the model</i>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/regu_1.JPG" alt="regularization 1">
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/regu_2.JPG" alt="regularization 2">
+<i>Regularization: Fitting of the model with changing alpha values</i>
 <br><br>
 
-We can clearely observe that the overfitting no longer exist when the number of data points is increased.
+To analyse these data more in depth, we can see how Root mean squre error changes with different alpha values. In the folliwing figures you can see how the training and test error changes with Lasso Regularization and Ridge Regularization, two commonly used regularization techniques for regression models.
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/lasso_regu.JPG" alt="Lasso regularization">
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ridge_regu.JPG" alt="Ridge regularization">
 <br><br>
 
 <h3>Comparison of Models based on Neuron Count</h3>
@@ -85,43 +89,6 @@ Following different models are developed to compare the base accuracies against 
 <i>Average Accuracy of each model</i>
 <br><br>
 Based on the above findings we can conclude that performance of the model improves with increasing number of neurons in each layer.
-<br><br>
-
-<h3>Comparison of Models based on Filter size</h3>
-Following different models are developed to compare the base accuracies against different filter sizes.
-<br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/filter_size_table.JPG" alt="filter_size_table"><br>
-<i>Models and Filter sizes</i>
-<br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/filter_size_chart.JPG" alt="filter_size_chart"><br>
-<i>Average Accuracy of each model</i>
-<br><br>
-Based on the above findings we can conclude that performance of the model improves with decreasing filter sizes.
-<br><br>
-
-<h3>Comparison of Models based on Number of Layers</h3>
-Following different models are developed to compare the base accuracies against different number of layers.
-<br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/layers_table.JPG" alt="filter_size_table"><br>
-<i>Models and Number of Layers</i>
-<br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/layers_chart.JPG" alt="filter_size_chart"><br>
-<i>Average Accuracy of each model</i>
-<br><br>
-Based on the above findings we can conclude that performance of the model decreases when the number of layers are considerably low or high. Performance of the model was high when the number of layers is 4.
-<br><br>
-
-<h2>Conclusion</h2>
-Considering the parameters tested above we can conclude that the performance of a Convolutional Neural Network model can be improved by increasing the neuron count, decreasing the filter size and fine-tuning the number of filters accordingly.
-<br><br>
-Following Models are developed to test these findings and improve the performance of the base model used.
-<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/final_table.JPG" alt="filter_size_table"><br>
-<i>Base model and enhanced model to improve performance</i>
-<br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/final_chart.JPG" alt="filter_size_chart"><br>
-<i>Average Accuracy of each model</i>
 <br><br>
 
 <h2>Challenges</h2>
