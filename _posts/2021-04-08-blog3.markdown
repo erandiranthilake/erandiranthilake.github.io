@@ -11,6 +11,7 @@ linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
 ---
 <h2>Contribution :</h2>
 <h3>Technical Documentation for Overfitting of Models<br>
+Studying models using Lasso and Ridge Regularization<br>
 Implementation and comparison of models based on Root Mean Squre Error and R2 Score </h3>
 <hr>
 
@@ -79,29 +80,24 @@ To analyse these data more in depth, we can see how Root mean squre error change
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ridge_regu.JPG" alt="Ridge regularization">
 <br><br>
 
-<h3>Comparison of Models based on Neuron Count</h3>
-Following different models are developed to compare the base accuracies against different neuron counts.
+<h2>Root Mean Squre Error and R2 score to assess overfitting</h2>
+Another important measure that we can use in order to assess over fitting is r2 scores. We can see in polynomial regression model, when the degree is increasing, thus increasing the complexity of the model, the error increases and R2 score gradually decreases. 
 <br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_box.JPG" alt="neuron_count_table"><br>
-<i>Models and neuron counts in each layer</i>
-<br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron_count_chart.JPG" alt="neuron_count_chart"><br>
-<i>Average Accuracy of each model</i>
-<br><br>
-Based on the above findings we can conclude that performance of the model improves with increasing number of neurons in each layer.
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/r2_score.JPG" alt="r2 score"><br>
+<i>R2 score and ERMS with increasing degree</i>
 <br><br>
 
 <h2>Challenges</h2>
-Main challenge faced during the process was limitation of machine power to process increased number of layers and larger data sets. As a measure to overcome these issues, at times the models were run through limited data sets. Possible improvement concerning machine power is using GPU.
+Main challenge faced during assessing these models was to accurate assessment of the complexity of the training technique as well as the amount of data needed to build a successful predictive model. Graph tools used during the process helped to visualize the results and assess these parameters with more accuracy.
 <br><br>
 
 <hr>
 
 <h2>References</h2> 
-1. <a href="https://www.tensorflow.org/tutorials/images/cnn">TensorFlow Tutorial</a><br>
-2. <a href="https://www.altexsoft.com/blog/image-recognition-neural-networks-use-cases/">Image Recognition with Deep Neural Networks and its Use Cases</a><br>
-3. <a href="https://www.researchgate.net/profile/Wu-Xiongwei/publication/335135074_Recent_Advances_in_Deep_Learning_for_Object_Detection/links/5e27f1c8a6fdcc70a140e4ac/Recent-Advances-in-Deep-Learning-for-Object-Detection.pdf">Recent Advances in Deep Learning for Object Detection</a><br>
-4. <a href="https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-networks">ML Practicum: Image Classification</a><br>
+1. <a href="https://www.investopedia.com/terms/o/overfitting.asp">Overfitting</a><br>
+2. <a href="https://towardsdatascience.com/polynomial-regression-bbe8b9d97491">Polynomial Regression</a><br>
+3. <a href="https://www.pluralsight.com/guides/linear-lasso-ridge-regression-scikit-learn">Linear, Lasso, and Ridge Regression with scikit-learn</a><br>
 <br><br>
 
 </div>
