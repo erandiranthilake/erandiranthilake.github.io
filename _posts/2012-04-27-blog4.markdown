@@ -1,6 +1,6 @@
 ---
 layout : "post"
-title : "Text Analysis Naive Bayes Classification"
+title : "Sentiment Analysis of Text using Naive Bayes Classification"
 author : "Erandi Ranthilake"
 hasGit : false
 gitProject : "https://github.com/erandiranthilake/Assigment_02"
@@ -12,8 +12,7 @@ linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
 <h2>Contribution :</h2>
 <h3>Technical Documentation for Naive Bayes Classification<br>
 Experiments on improving Naive bayes classification Model<br>
-Experiments on Improving Text Analysis<br>
- </h3>
+</h3>
 <hr>
 
 <a href="https://www.kaggle.com/erandiranthilake/naive-bayes">Link to Kaggle Notebook</a><br>
