@@ -1,6 +1,6 @@
 ---
 layout : "post"
-title : "Naive Bayes Classification"
+title : "Text Analysis Naive Bayes Classification"
 author : "Erandi Ranthilake"
 hasGit : false
 gitProject : "https://github.com/erandiranthilake/Assigment_02"
@@ -34,41 +34,50 @@ The Naïve Bayes is called 'Naïve' as it makes the assumption that we are sing 
 <h2>Sentiment analysis of test using Naïve Bayes classification</h2>
 Text analysis can be defined as parsing unstructured textual data, in order to extract facts from it that can be processed by machine learning models. The challenge of analysing text is the ambiguity of languages. Given a certain text, a machine can generate several valid interpretations. Sentiment Analysis of text is basically identifying if a positive or a negative sentiment is attached to the text. In this exercise, we will try to develop a Naïve Bayes classification model to Identify if a given review is negative or positive.<br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_degree.JPG" alt="code degree"><br>
-<i>Code base for models</i>
+<b>Data</b><br>
+We will use the <a href="https://www.kaggle.com/marklvl/sentiment-labelled-sentences-data-set">Sentiment Labelled Sentences Data Set from Kaggle.com</a> for this exercise. Our goal is predicting the sentiment. <br>
+First, we will load the data into a dataframe.<br><br>
+
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/load_data.JPGG" alt="Load Data"><br>
+<i>Load Data into a Dataframe</i>
 <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree1.JPG" alt="polynomial degree"><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree3.JPG" alt="polynomial degree"><br>
-<i>Data points plotted at different degrees</i>
+Then we will divide the data into Train, Dev and Test data sets.<br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/divide_data.JPG" alt="divide Data"><br>
+<i>Divide Data into a Dataframe</i>
 <br><br>
 
-Overfitting can be seen when the degree is 9. In order to numberically demonstrate overfitting we can calculate the training error and testing error in increasing degrees.<br><br>
+<b>Building Vocabulary</b><br>
+Next step is building a vocabulary for the train data. This will in the format of a dictionary where we will calculate the number of documents with the positive comments, nnumber of documents with the positive comments and the number of all the documents are recorded for each word. <br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_error.JPG" alt="code error"><br>
-<i>Code base for calculating error at different degrees</i>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/vocab_code.JPG" alt="build vocabulary"><br>
+<i>Build a vocabulary for each word</i>
 <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_error.JPG" alt="error"><br>
-<i>Training Error vs Testing Error</i>
-<br><br>
-<br>
-
-
-<h2>How to prevent overfitting?</h2>
-There are several identified ways to prevent overfitting. In this post we will dicuss preventing over fitting by increasing the amount of data points and through regularization
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/vocab_result.JPG" alt="vocab result"><br>
+<i> developed Vocabulary</i>
 <br><br>
 
-<h3>Increasing the number of Data points</h3>
-As oppose to using 10 data points to train, we will use 100 Data points and a 9th order model to compare the results.
+
+<b>Develop Probability Calculations</b><br>
+Using the developed Vocabulary in the previous step, we can develop methods to calculate certain probabilities that will be used in the sentiment analysis of our texts.<br><br>
+1. Probability of the occurrence<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/poo.JPG" alt="Probability of the occurrence"><br>
+<i>Probability of the occurrence</i>
 <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_data100.JPG" alt="increased data">
-<i>Number of data point vs fitting of the model</i>
+2. Conditional probability based on the sentiment<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/cond_prob.JPG" alt="Conditional probability"><br>
+<i> Conditional probability based on the sentiment</i>
 <br><br>
 
-We can clearely observe that the overfitting no longer exist when the number of data points is increased.
+Following is the outcome of these methods when we calculate above probabilities for the word "the"<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/the_prob.JPG" alt="calcualte probability"><br>
+<i> Calculated Probabilities for teh word "the"</i>
 <br><br>
+
 
 <h3>Regularization</h3>
 We will be using a predefined regularization calculation to regularize the model and train the model. THe behaviour of the model is observed with changing alpha values.
