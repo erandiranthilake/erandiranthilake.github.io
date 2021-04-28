@@ -23,8 +23,8 @@ Experiments on Improving Text Analysis<br>
 <h2>Naive Bayes Classification</h2>
 Naïve Bayes classification is a method used to calculate the probability of a outcome, given certain features, which can be depicted as P(L|features).  This is a very strong data minning technique for predictive models. The base theory behind this classifier is the Bayes's Theorem, which describes the relationship of conditional probabilities of statistical computations in the following equation.<br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_degree.JPG" alt="code degree"><br>
-<i>Code base for models</i>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/bayes_equation.JPG" alt="bayes_equation"><br>
+<i>Bayes Equation</i>
 <br><br>
 
 <b>Why is it called 'Naive'?</b><br>
