@@ -1,0 +1,108 @@
+---
+layout : "post"
+title : "Naive Bayes Classification"
+author : "Erandi Ranthilake"
+hasGit : false
+gitProject : "https://github.com/erandiranthilake/Assigment_02"
+hasLink : true
+link : "https://erandiranthilake.github.io/"
+linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
+
+---
+<h2>Contribution :</h2>
+<h3>Technical Documentation for Naive Bayes Classification<br>
+Experiments on improving Naive bayes classification Model<br>
+Experiments on Improving Text Analysis<br>
+ </h3>
+<hr>
+
+<a href="https://www.kaggle.com/erandiranthilake/naive-bayes">Link to Kaggle Notebook</a><br>
+<hr>
+
+<div style="text-align: justify"> 
+<h2>Naive Bayes Classification</h2>
+Naïve Bayes classification is a method used to calculate the probability of a outcome, given certain features, which can be depicted as P(L|features).  This is a very strong data minning technique for predictive models. The base theory behind this classifier is the Bayes's Theorem, which describes the relationship of conditional probabilities of statistical computations in the following equation.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_degree.JPG" alt="code degree"><br>
+<i>Code base for models</i>
+<br><br>
+
+<b>Why is it called 'Naive'?</b><br>
+The Naïve Bayes is called 'Naïve' as it makes the assumption that we are sing independent input variable in the calculation. This is an unrealistic assumption. However, the technique is highly effective and solves many complex problems, which outweighs the effect of the unrealistic assumption.<br>
+
+
+<h2>Sentiment analysis of test using Naïve Bayes classification</h2>
+Text analysis can be defined as parsing unstructured textual data, in order to extract facts from it that can be processed by machine learning models. The challenge of analysing text is the ambiguity of languages. Given a certain text, a machine can generate several valid interpretations. Sentiment Analysis of text is basically identifying if a positive or a negative sentiment is attached to the text. In this exercise, we will try to develop a Naïve Bayes classification model to Identify if a given review is negative or positive.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_degree.JPG" alt="code degree"><br>
+<i>Code base for models</i>
+<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree1.JPG" alt="polynomial degree"><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_degree3.JPG" alt="polynomial degree"><br>
+<i>Data points plotted at different degrees</i>
+<br><br>
+
+Overfitting can be seen when the degree is 9. In order to numberically demonstrate overfitting we can calculate the training error and testing error in increasing degrees.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/code_error.JPG" alt="code error"><br>
+<i>Code base for calculating error at different degrees</i>
+<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_error.JPG" alt="error"><br>
+<i>Training Error vs Testing Error</i>
+<br><br>
+<br>
+
+
+<h2>How to prevent overfitting?</h2>
+There are several identified ways to prevent overfitting. In this post we will dicuss preventing over fitting by increasing the amount of data points and through regularization
+<br><br>
+
+<h3>Increasing the number of Data points</h3>
+As oppose to using 10 data points to train, we will use 100 Data points and a 9th order model to compare the results.
+<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/graph_data100.JPG" alt="increased data">
+<i>Number of data point vs fitting of the model</i>
+<br><br>
+
+We can clearely observe that the overfitting no longer exist when the number of data points is increased.
+<br><br>
+
+<h3>Regularization</h3>
+We will be using a predefined regularization calculation to regularize the model and train the model. THe behaviour of the model is observed with changing alpha values.
+<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/regu_1.JPG" alt="regularization 1">
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/regu_2.JPG" alt="regularization 2">
+<i>Regularization: Fitting of the model with changing alpha values</i>
+<br><br>
+
+To analyse these data more in depth, we can see how Root mean squre error changes with different alpha values. In the folliwing figures you can see how the training and test error changes with Lasso Regularization and Ridge Regularization, two commonly used regularization techniques for regression models.
+<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/lasso_regu.JPG" alt="Lasso regularization">
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ridge_regu.JPG" alt="Ridge regularization">
+<br><br>
+
+<h2>Root Mean Squre Error and R2 score to assess overfitting</h2>
+Another important measure that we can use in order to assess over fitting is r2 scores. We can see in polynomial regression model, when the degree is increasing, thus increasing the complexity of the model, the error increases and R2 score gradually decreases. 
+<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/r2_score.JPG" alt="r2 score"><br>
+<i>R2 score and ERMS with increasing degree</i>
+<br><br>
+
+<h2>Challenges</h2>
+Main challenge faced during assessing these models was to accurate assessment of the complexity of the training technique as well as the amount of data needed to build a successful predictive model. Graph tools used during the process helped to visualize the results and assess these parameters with more accuracy.
+<br><br>
+
+<hr>
+
+<h2>References</h2> 
+1. <a href="https://www.investopedia.com/terms/o/overfitting.asp">Overfitting</a><br>
+2. <a href="https://towardsdatascience.com/polynomial-regression-bbe8b9d97491">Polynomial Regression</a><br>
+3. <a href="https://www.pluralsight.com/guides/linear-lasso-ridge-regression-scikit-learn">Linear, Lasso, and Ridge Regression with scikit-learn</a><br>
+<br><br>
+
+</div>
