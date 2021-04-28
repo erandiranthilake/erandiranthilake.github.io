@@ -127,13 +127,13 @@ Finally, we can calculate the accuracy using the test data set.<br><br>
 <br><br>
 
 <h2>Conclusion</h2>
-Sentiment analysis of text is an important topic in the Machine Learning and data mining word as it has many uses in the real word. Naïve Bayes classification, a simple yet powerful technique can be used to analyze text.<br><br>
-We can see a significant improvement in the prediction accuracies when we use the smoothing technique to improve the model. The accuracy of the dev data set improved from 0.48 to 0.68, where as the average of the five-fold cross validation improved from 0.494 to 0.599.<br>
+Sentiment analysis of text is an important topic in the Machine Learning and data mining world as it has many uses in the real word. Naïve Bayes classification, a simple yet powerful technique can be used to analyze text.<br><br>
+We can see a significant improvement in the prediction accuracies when we use the <b>smoothing technique</b> to improve the model. The accuracy of the dev data set improved from <b>0.48 to 0.68</b>, where as the average of the five-fold cross validation improved from <b>0.494 to 0.599.</b><br>
 Therefore, we can recommend using smoothing as a technique to improve such models.
 <br><br>
 
 <h2>Challenges</h2>
-Main challenge in the exercise was the time it takes for the calculation. Since the classification model include many probability calculations, the calcualtion time is considerably large.
+Main challenge faced in the exercise was the time it takes for the calculation. Since the classification model includes many probability calculations, the calcualtion time is considerably large.
 <br><br>
 
 <hr>
