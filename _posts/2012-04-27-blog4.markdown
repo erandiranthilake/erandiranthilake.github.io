@@ -75,43 +75,74 @@ Using the developed Vocabulary in the previous step, we can develop methods to c
 
 Following is the outcome of these methods when we calculate above probabilities for the word "the"<br><br>
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/the_prob.JPG" alt="calcualte probability"><br>
-<i> Calculated Probabilities for teh word "the"</i>
+<i> Calculated Probabilities for the word "the"</i>
 <br><br>
 
 
-<h3>Regularization</h3>
-We will be using a predefined regularization calculation to regularize the model and train the model. THe behaviour of the model is observed with changing alpha values.
+<h3>Predicting if the review is 'Positive' or 'Negative'</h3>
+Using the above calculations now we can predict if a given text is 'Positive' or 'Negative' in sentiment.
 <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/regu_1.JPG" alt="regularization 1">
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/regu_2.JPG" alt="regularization 2">
-<i>Regularization: Fitting of the model with changing alpha values</i>
+<b>Methods</b><br>
+The predict method is used to predict the sentiment for a given group of words and the caculate_accuracy method<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/predict.JPG" alt="Predict Setiment"><br>
+<i> Methods to predict sentiment and caculate the accuracy</i>
 <br><br>
 
-To analyse these data more in depth, we can see how Root mean squre error changes with different alpha values. In the folliwing figures you can see how the training and test error changes with Lasso Regularization and Ridge Regularization, two commonly used regularization techniques for regression models.
-<br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/lasso_regu.JPG" alt="Lasso regularization">
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ridge_regu.JPG" alt="Ridge regularization">
-<br><br>
-
-<h2>Root Mean Squre Error and R2 score to assess overfitting</h2>
-Another important measure that we can use in order to assess over fitting is r2 scores. We can see in polynomial regression model, when the degree is increasing, thus increasing the complexity of the model, the error increases and R2 score gradually decreases. 
+In addition, we will use the Five-fold cross validation to extend our accuracy calculations<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/five_fold.JPG" alt="five_fold_cross validation_"><br>
+<i> Five fold cross validation of the data set</i>
 <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/r2_score.JPG" alt="r2 score"><br>
-<i>R2 score and ERMS with increasing degree</i>
+Now we can calcuate the Accuracy of the prediction using the dev dataset and the five fold cross validation.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/results_dev.JPG" alt="results_dev"><br>
+<i> Calculation results using dev data set</i>
+<br><br>
+
+<h2>Improving the Model using Smoothing</h2>
+If a given feature and the outcome never occur together in the training dataset, the probability calculation for all the features will be zero. This will lead to an incorrect prediction as the other features that occurred with the outcome could actually have an impact on the predict. In order to prevent this we introduce Smoothing. <br><br>
+
+In smoothing when we calculate the conditional probability, we add 1 to the numerator and number of unique occurrences of the features to the denominator. If we are developing a binary classification model we can simply add 2 to the denominator.<br><br>
+
+Following is the modified conditional probability calculation to implement smoothing<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/cond_prob_smoothing.JPG" alt="cond_prob_smoothing.JPG"><br>
+<i> Modified conditional probability calculation to implement smoothing</i>
+<br><br>
+
+
+we can derive Top 10 words that predicts positive and negative class and use that to improve our model as well. <br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/top_ten.JPG" alt="top_ten.JPG"><br>
+<i> Top 10 words that predicts positive and negative class</i>
+<br><br>
+
+<b>Results after applying Smoothing</b><br>
+Now we can calculate the accuracy and conduct Five-fold cross validation to the data set and compare if the technique has improved the model.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/results_smoothing.JPG" alt="results_smoothing"><br>
+<i> Calculation results using dev data set after applying smoothing</i>
+<br><br>
+
+Finally, we can calculate the accuracy using the test data set.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/test_data.JPG" alt="test_data.JPGg"><br>
+<i> Calculation results using test data set after applying smoothing</i>
+<br><br>
+
+<h2>Conclusion</h2>
+Sentiment analysis of text is an important topic in the Machine Learning and data mining word as it has many uses in the real word. Naïve Bayes classification, a simple yet powerful technique can be used to analyze text.<br><br>
+We can see a significant improvement in the prediction accuracies when we use the smoothing technique to improve the model. The accuracy of the dev data set improved from 0.48 to 0.68, where as the average of the five-fold cross validation improved from 0.494 to 0.599.<br>
+Therefore, we can recommend using smoothing as a technique to improve such models.
 <br><br>
 
 <h2>Challenges</h2>
-Main challenge faced during assessing these models was to accurate assessment of the complexity of the training technique as well as the amount of data needed to build a successful predictive model. Graph tools used during the process helped to visualize the results and assess these parameters with more accuracy.
+Main challenge in the exercise was the time it takes for the calculation. Since the classification model include many probability calculations, the calcualtion time is considerably large.
 <br><br>
 
 <hr>
 
 <h2>References</h2> 
-1. <a href="https://www.investopedia.com/terms/o/overfitting.asp">Overfitting</a><br>
-2. <a href="https://towardsdatascience.com/polynomial-regression-bbe8b9d97491">Polynomial Regression</a><br>
-3. <a href="https://www.pluralsight.com/guides/linear-lasso-ridge-regression-scikit-learn">Linear, Lasso, and Ridge Regression with scikit-learn</a><br>
+1. <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html">In Depth: Naive Bayes Classification</a><br>
+2. <a href="https://www.sciencedirect.com/topics/mathematics/naive-bayes#:~:text=Naive%20Bayes%20is%20called%20naive,large%20range%20of%20complex%20problems.">Naïve Bayes</a><br>
+3. <a href="https://www.ontotext.com/knowledgehub/fundamentals/text-analysis/">What is Text Analysis?</a><br>
+4. <a href="https://courses.cs.washington.edu/courses/cse446/20wi/Section7/naive-bayes.pdf">Naive Bayes Classifier</a><br>
 <br><br>
 
 </div>
