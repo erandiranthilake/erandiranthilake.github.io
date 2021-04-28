@@ -115,7 +115,7 @@ we can derive Top 10 words that predicts positive and negative class and use tha
 <i> Top 10 words that predicts positive and negative class</i>
 <br><br>
 
-<b>Results after applying Smoothing</b><br>
+<h2>Results after applying Smoothing<</h2>
 Now we can calculate the accuracy and conduct Five-fold cross validation to the data set and compare if the technique has improved the model.<br><br>
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/results_smoothing.JPG" alt="results_smoothing"><br>
 <i> Calculation results using dev data set after applying smoothing</i>
