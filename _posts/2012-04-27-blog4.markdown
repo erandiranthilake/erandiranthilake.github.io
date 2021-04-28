@@ -39,7 +39,7 @@ We will use the <a href="https://www.kaggle.com/marklvl/sentiment-labelled-sente
 First, we will load the data into a dataframe.<br><br>
 
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/load_data.JPGG" alt="Load Data"><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/load_data.JPG" alt="Load Data"><br>
 <i>Load Data into a Dataframe</i>
 <br><br>
 
