@@ -1,0 +1,106 @@
+---
+layout : "post"
+title : "Final Project: Messaging Spam Detector"
+author : "Erandi Ranthilake"
+hasGit : false
+gitProject : ""
+hasLink : true
+link : "https://erandiranthilake.github.io/"
+linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
+
+---
+<h2>Contribution :</h2>
+<h3>Technical Documentation on Naive Bayes Classifier and Text Optimization<br>
+Improved Naive Bayes Classifier with Text optimazation</h3>
+<hr>
+
+<a href="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/Project_proposal.pdf">Project Proposal</a>
+<a href="https://www.kaggle.com/erandiranthilake/spam-detector-naive-bayes">Link to Kaggle notebook - Spam Detector</a><br>
+
+<hr>
+<div style="text-align: justify"> 
+Constructing a model to train a large amount of data may seem like a daunting task, especially when the given data sets need additional pre-processing. More refined data sets available on the website <b>Kaggle.com</b> make this task easy as the data is well structured and explanatory. In addition to providing data, on the same website you can develop code on Notebooks that support well-known programming languages for Machine Learning model development, such as Python.<br><br>
+  
+It is also stimulating to participate in the Challenges by Kaggle.com to solve data-related problems using Machine Learning models. In this post, I would like to develop an in depth discussion about the process and the technique used to develop a model to predic survival in Titanic Challenge and a second model to improve the performance of the prediction as explained in the tutorial by Kaggle.<br><br>
+
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/titanicChallenge.jpg" alt="Titanic Challenge"><br><br>
+Image Courtesy: Kaggle.com
+
+<h2>Data</h2>
+Data used in this challenge is divided into two subsets, train, and test, and can be found in train.csv and test.csv files respectively. There are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/data.JPG" alt="Data"><br><br>
+
+  
+<h2>Submission based on the Gender of Passenger</h2> 
+In order to understand the submission process, users are provided with a file that is developed based on the gender of the passenger. A crude assumption is made that the females in the ship survived as the males did not. Based on this raw assumption, a submission file is developed to indicate the survival against the passenger id. <br><br>
+
+When this file is submitted we get a score of 0.76555, indicating a 76.55% correctness of the predictions.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/genderSubmission.JPG" alt="Gender Submission"><br><br>
+
+<h2>Random Forrest Model</h2> 
+<h3>What is Random Forest Algorithm? </h3> 
+
+Random Forrest Algorithm is a Supervised learning algorithm, capable of performing both regression and classification tasks. This algorithm creates a forest consists of an N number of decision trees. In general, The higher the number of decision trees, the more accurate the output.<br><br>
+
+When developing the algorithm, for each tree, a number of random data rows and a number of random feature columns are selected. Based on this selection, each tree is trained to make a prediction of the output. For the classification problems, the majority vote is selected considering outputs from all the trees. For the regression problems, the mean or the median value of the outputs from the trees is selected based on the distribution of the data.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/randomForest.JPG" alt="Random Forest"><br><br>
+
+
+<h3>Why random forest over a single Decision Tree? </h3>
+
+When a single decision tree is developed to the full depth using train data, such a tree would contain a low bias and a  high variance. When the test data is fed to such models, the error of the output is very high and the accuracy of prediction is very low. Therefore it is paramount to bring the variance of the prediction model to a low. With Random forest, this task is achieved by row sampling and feature sampling, as well as a majority vote.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/DT.JPG" alt="Decision Tree"><br><br>
+
+<h3>How to develop the code for a Random forest model? </h3>
+
+First, we need to read from the data files and load the data into a Dataframe.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/loadData.JPG" alt="Note Book"><br><br>
+
+Next, we need to develop the model. Here, we have used the <b>RandomForrestClassifier</b> from the sci-kit learn library in python. We can fit the model using the train data and predict the outcome for the test data. The following model contains 100 Decision trees and developed 5 layers in depth.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/randomforestModel.JPG" alt="Random Forest Classifier Model"><br><br>
+
+<h3>Did the model improve the score? </h3>
+
+Random forest is a well-known powerful classifier data model. When the outcome for the test data from the model we developed is submitted to Kaggle, we can see the prediction is well improved.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
+
+<h2>Suggestions: Artificial Neural Network Model</h2>
+<h3>What is an Artificial Neural Network? </h3>
+
+Artificial Neural Networks are Deep learning models, that are inspired by the human neuronal system. These networks consist of several nodes in N number of layers, which include an input layer, several hidden layers, and an output layer. At each layer, there is a calculation done by using values of the bias and weights. Learning rates and cost functions are also used in these calculation. Learning of the models occurs through backpropagation and adjusting the weights of each layer.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron.JPG" alt="Human Neuron"><br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ANN.JPG" alt="ANN"><br><br>
+
+<h3>How to develop the code for a Neural Networkt model? </h3>
+
+Python provides libraries such as Tensorflow and Keras, that can be utilized to achieve this task. We can develop N number of layers with the suitable cost function at each layer.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ANNModel.JPG" alt="ANN Model"><br><br>
+
+<h3>Challenges Developing Artificial Neural Networks </h3>
+
+There can be various challenges related to developing neural networks.<br>
+1. Providing with necessary computation power.<br>
+2. Providing enough data to develop a successful model.<2>
+
+
+<hr>
+
+<h2>References</h2> 
+1. <a href="https://www.kaggle.com/alexisbcook/titanic-tutorial">Titanic Tutorial</a><br>
+2. <a href="https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/">Decision Tree Vs Random Forest</a><br>
+3. <a href="https://towardsdatascience.com/from-a-single-decision-tree-to-a-random-forest-b9523be65147">Random Forest</a><br>
+4. <a href="https://www.youtube.com/watch?v=nxFG5xdpDto&ab_channel=KrishNaik">Random Forest Development</a><br>
+5. <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">Neural Networks</a><br><br>
+
+</div>
+
