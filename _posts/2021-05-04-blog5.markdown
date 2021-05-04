@@ -2,8 +2,8 @@
 layout : "post"
 title : "Final Project: Messaging Spam Detector"
 author : "Erandi Ranthilake"
-hasGit : false
-gitProject : ""
+hasGit : true
+gitProject : "https://github.com/erandiranthilake/spamDetector"
 hasLink : true
 link : "https://erandiranthilake.github.io/"
 linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
@@ -60,11 +60,57 @@ Following is theconditional probability calculation implementing smoothing<br><b
 <i> Modified conditional probability calculation to implement smoothing</i>
 <br><br>
 
-<h3>Challenges </h3>
+<h2>Text Optimization</h2>
+The challenge of analyzing text is the ambiguity of languages. Given a certain text, a machine can generate several valid interpretations. Therefore, in any kind of text analysis process, it is paramount to pre-process the data. It is also important to ensure such methods are not overly done, as this could cause a lost of quality in the data that may be important for the analysis. In this project as part of the pre-processing data we will conduct following techniques to improve the quality of the textual data and compare the effect of text optimization.<br><br>
 
-There can be various challenges related to developing neural networks.<br>
-1. Providing with necessary computation power.<br>
-2. Providing enough data to develop a successful model.<2>
+1. Remove stop words – stop words are a group of words that are commonly used in any language.<br>
+2. Stemming - Stemming is a process of reducing inflected words to their root form.<br><br>
+
+These techniques can be simply applied by using python libraries such as Natural Language ToolKit (NLTK)<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/nltk.JPG" alt="NLTK"><br>
+<i> Natural Language ToolKit (NLTK)</i>
+<br><br>
+
+<h2>Methodology</h2>
+
+The data will be loaded into a data frame with the colums of outcome, spam or ham, and the text.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam_data.JPG" alt="load Data"><br>
+<i> Loading Data</i>
+<br><br>
+
+Data will be divided into a several different sets, which include spam texts as well as non-spam text.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam_datasplit.JPG" alt="data split"><br>
+<i> Data divided into subsets</i>
+<br><br>
+
+Each dataset is processed to generate training and test data. Training data will be used to generate tonal vocabularies, text optimized and non-optimized. Then using the test data from the same subset accuracy of the predictions are evaluated.<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam_model.JPG" alt="Process data"><br>
+<i> Processing datasets</i>
+<br><br>
+
+<h3>Results</h3>
+
+Average accuracy of predicting the if a text is a spam or not when the model is not optimized is <b>0.5307</b> where as in the optimized model the the prediction accuracy is 0.9227.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam_accuracy.JPG" alt="Numerical Accuracy"><br>
+<i> Prediction accuracy for each data set and Average</i>
+<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/bar_chart.JPG" alt="bar chart"><br>
+<i> Optimized Vs Not-Optimized model outputs</i>
+<br><br>
+
+<h3>Conclusion</h3>
+
+It is evident that when the classifier optimization techniques such as smoothing combined with text optimization techniques such as removing stop words and stemming of the word, can result in a much higher accuracy for predicting whether a text is a spam. Therefore, these techniques are highly recommended to be applied in ML models that perform textual data analysis.
+<br><br>
+
+
+<h3>Challenges </h3>
+A challenge faced was the calculation duration. Since the classification model includes many probability calculations, the calcualtion time is considerably large. Therefore smaller datasets are processed.
 
 
 <hr>

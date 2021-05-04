@@ -3,7 +3,7 @@ layout : "post"
 title : "Sentiment Analysis of Text using Naive Bayes Classification"
 author : "Erandi Ranthilake"
 hasGit : false
-gitProject : "https://github.com/erandiranthilake/Assigment_02"
+gitProject : ""
 hasLink : true
 link : "https://erandiranthilake.github.io/"
 linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
@@ -31,7 +31,7 @@ The Naïve Bayes is called 'Naïve' as it makes the assumption that we are sing 
 
 
 <h2>Sentiment analysis of test using Naïve Bayes classification</h2>
-Text analysis can be defined as parsing unstructured textual data, in order to extract facts from it that can be processed by machine learning models. The challenge of analysing text is the ambiguity of languages. Given a certain text, a machine can generate several valid interpretations. Sentiment Analysis of text is basically identifying if a positive or a negative sentiment is attached to the text. In this exercise, we will try to develop a Naïve Bayes classification model to Identify if a given review is negative or positive.<br><br>
+Text analysis can be defined as parsing unstructured textual data, in order to extract facts from it that can be processed by machine learning models. The challenge of analyzing text is the ambiguity of languages. Given a certain text, a machine can generate several valid interpretations. Sentiment Analysis of text is basically identifying if a positive or a negative sentiment is attached to the text. In this exercise, we will try to develop a Naïve Bayes classification model to Identify if a given review is negative or positive.<br><br>
 
 <b>Data</b><br>
 We will use the <a href="https://www.kaggle.com/marklvl/sentiment-labelled-sentences-data-set">Sentiment Labelled Sentences Data Set from Kaggle.com</a> for this exercise. Our goal is predicting the sentiment. <br>
