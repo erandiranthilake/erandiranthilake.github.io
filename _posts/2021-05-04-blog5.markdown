@@ -19,13 +19,28 @@ Improved Naive Bayes Classifier with Text optimazation</h3>
 
 <hr>
 <div style="text-align: justify"> 
-Constructing a model to train a large amount of data may seem like a daunting task, especially when the given data sets need additional pre-processing. More refined data sets available on the website <b>Kaggle.com</b> make this task easy as the data is well structured and explanatory. In addition to providing data, on the same website you can develop code on Notebooks that support well-known programming languages for Machine Learning model development, such as Python.<br><br>
-  
-It is also stimulating to participate in the Challenges by Kaggle.com to solve data-related problems using Machine Learning models. In this post, I would like to develop an in depth discussion about the process and the technique used to develop a model to predic survival in Titanic Challenge and a second model to improve the performance of the prediction as explained in the tutorial by Kaggle.<br><br>
+With the expansion of the technology around the globe, digital messaging has become an important part of everyday life. These messaging systems can include SMS, Email, IM in various apps etc. While many uses these messages to communicate in personal or professional setup, some use these systems as information sources. For this reason, these platforms are targeted by many groups to share information and advertise products or services. Among these groups can exist some individuals that may misuse the
+system.<br>
+A spam is any unwanted or unsolicited message sent to your device, often for commercial purposes. But it could take other form such as, a link to a number to call or text, a link to a website for more information. It is estimated that in the United States, every year almost 4.5 billion spam texts end up in inboxes.<br><br>
+
+<h3>Why someone need an application to detect spam messages? </h3> 
+
+As discussed above, digital messaging systems are one of the most effective ways to reach a larger population. This fact can be used by individuals who are interested in <b>distributing false information</b> among groups. This was widely seen during election campaigns and any kind of a crisis that could potentially disturb the peace and security in communities. Some hackers use digital messaging systems to <b>obtain personal information</b> about individual. They may ask for information such as name, address, or
+worse, bank details and other sensitive information in order to win a prize. This can lead to <b>identity theft</b> and fraudulent transaction of money from bank accounts. <b>SMS phishing</b> is also a known method of obtaining personal information about individuals. <b>Advertising products or services that are fraudulent</b> is also seen in many cases, that could potentially lead people to send money to hackers. The consequences of such attacks can be destructive, where victims can lose money, expose personal and financial information and jeopardize their business reputation.<br><br>
+
+<h3>What features are included in this app? </h3> 
+
+1. Detect spam messages with an accuracy of > 90%.<br>
+2. Flag the spam messages when they reach inbox<br>
+3. Check if a given text message is a Spam or not<br>
+4. Gather data and improve the model to detect spam messages with greater accuracy<br>
+<br><br>
 
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/titanicChallenge.jpg" alt="Titanic Challenge"><br><br>
-Image Courtesy: Kaggle.com
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam_ss.png" alt="Spam Detector"><br>
+<i> Spam Detector Application User Interface Sketches</i>
+<br><br>
+
 
 <h2>Data</h2>
 Data used in this challenge is divided into two subsets, train, and test, and can be found in train.csv and test.csv files respectively. There are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>
