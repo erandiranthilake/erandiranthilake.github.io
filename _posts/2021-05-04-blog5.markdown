@@ -29,7 +29,6 @@ As discussed above, digital messaging systems are one of the most effective ways
 worse, bank details and other sensitive information in order to win a prize. This can lead to <b>identity theft</b> and fraudulent transaction of money from bank accounts. <b>SMS phishing</b> is also a known method of obtaining personal information about individuals. <b>Advertising products or services that are fraudulent</b> is also seen in many cases, that could potentially lead people to send money to hackers. The consequences of such attacks can be destructive, where victims can lose money, expose personal and financial information and jeopardize their business reputation.<br><br>
 
 <h3>What features are included in this app? </h3> 
-
 1. Detect spam messages with an accuracy of > 90%.<br>
 2. Flag the spam messages when they reach inbox<br>
 3. Check if a given text message is a Spam or not<br>
@@ -45,68 +44,24 @@ worse, bank details and other sensitive information in order to win a prize. Thi
 In order to develop the application, we will be using a data model designed using Naïve Bayes classifier. The model will be optimized using techniques such as Smoothing and Text optimization methods. We will be using a dataset from Kaggle.com, SMS spam collection dataset<br>
 <a href="https://www.kaggle.com/uciml/sms-spam-collection-dataset">Link to Kaggle dataset - SMS Spam collection dataset</a><br>
 
+<h2>Naive Bayes Classification</h2>
+Naïve Bayes classification is a method used to calculate the probability of a outcome, given certain features, which can be depicted as P(L|features).  This is a very strong data minning technique for predictive models. The base theory behind this classifier is the Bayes's Theorem, which describes the relationship of conditional probabilities of statistical computations in the following equation.<br><br>
 
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/bayes_equation.JPG" alt="bayes_equation"><br>
+<i>Bayes Equation</i>
+<br><br>
 
-<h2>Data</h2>
-Data used in this challenge is divided into two subsets, train, and test, and can be found in train.csv and test.csv files respectively. There are several different columns that contain data related to each passenger and the survival is indicated as 1 or 0 in the 'Survived' Column.<br><br>
+<b>Improving the Model using Smoothing</b><br><br>
+If a given feature and the outcome never occur together in the training dataset, the probability calculation for all the features will be zero. This will lead to an incorrect prediction as the other features that occurred with the outcome could actually have an impact on the predict. In order to prevent this we introduce Smoothing. <br><br>
 
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/data.JPG" alt="Data"><br><br>
+In smoothing when we calculate the conditional probability, we add 1 to the numerator and number of unique occurrences of the features to the denominator. If we are developing a binary classification model we can simply add 2 to the denominator.<br><br>
 
-  
-<h2>Submission based on the Gender of Passenger</h2> 
-In order to understand the submission process, users are provided with a file that is developed based on the gender of the passenger. A crude assumption is made that the females in the ship survived as the males did not. Based on this raw assumption, a submission file is developed to indicate the survival against the passenger id. <br><br>
+Following is theconditional probability calculation implementing smoothing<br><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/cond_prob_smoothing.JPG" alt="cond_prob_smoothing.JPG"><br>
+<i> Modified conditional probability calculation to implement smoothing</i>
+<br><br>
 
-When this file is submitted we get a score of 0.76555, indicating a 76.55% correctness of the predictions.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/genderSubmission.JPG" alt="Gender Submission"><br><br>
-
-<h2>Random Forrest Model</h2> 
-<h3>What is Random Forest Algorithm? </h3> 
-
-Random Forrest Algorithm is a Supervised learning algorithm, capable of performing both regression and classification tasks. This algorithm creates a forest consists of an N number of decision trees. In general, The higher the number of decision trees, the more accurate the output.<br><br>
-
-When developing the algorithm, for each tree, a number of random data rows and a number of random feature columns are selected. Based on this selection, each tree is trained to make a prediction of the output. For the classification problems, the majority vote is selected considering outputs from all the trees. For the regression problems, the mean or the median value of the outputs from the trees is selected based on the distribution of the data.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/randomForest.JPG" alt="Random Forest"><br><br>
-
-
-<h3>Why random forest over a single Decision Tree? </h3>
-
-When a single decision tree is developed to the full depth using train data, such a tree would contain a low bias and a  high variance. When the test data is fed to such models, the error of the output is very high and the accuracy of prediction is very low. Therefore it is paramount to bring the variance of the prediction model to a low. With Random forest, this task is achieved by row sampling and feature sampling, as well as a majority vote.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/DT.JPG" alt="Decision Tree"><br><br>
-
-<h3>How to develop the code for a Random forest model? </h3>
-
-First, we need to read from the data files and load the data into a Dataframe.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/loadData.JPG" alt="Note Book"><br><br>
-
-Next, we need to develop the model. Here, we have used the <b>RandomForrestClassifier</b> from the sci-kit learn library in python. We can fit the model using the train data and predict the outcome for the test data. The following model contains 100 Decision trees and developed 5 layers in depth.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/randomforestModel.JPG" alt="Random Forest Classifier Model"><br><br>
-
-<h3>Did the model improve the score? </h3>
-
-Random forest is a well-known powerful classifier data model. When the outcome for the test data from the model we developed is submitted to Kaggle, we can see the prediction is well improved.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/twoSubmissions.JPG" alt="Submissions"><br><br>
-
-<h2>Suggestions: Artificial Neural Network Model</h2>
-<h3>What is an Artificial Neural Network? </h3>
-
-Artificial Neural Networks are Deep learning models, that are inspired by the human neuronal system. These networks consist of several nodes in N number of layers, which include an input layer, several hidden layers, and an output layer. At each layer, there is a calculation done by using values of the bias and weights. Learning rates and cost functions are also used in these calculation. Learning of the models occurs through backpropagation and adjusting the weights of each layer.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/neuron.JPG" alt="Human Neuron"><br><br>
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ANN.JPG" alt="ANN"><br><br>
-
-<h3>How to develop the code for a Neural Networkt model? </h3>
-
-Python provides libraries such as Tensorflow and Keras, that can be utilized to achieve this task. We can develop N number of layers with the suitable cost function at each layer.<br><br>
-
-<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/ANNModel.JPG" alt="ANN Model"><br><br>
-
-<h3>Challenges Developing Artificial Neural Networks </h3>
+<h3>Challenges </h3>
 
 There can be various challenges related to developing neural networks.<br>
 1. Providing with necessary computation power.<br>
