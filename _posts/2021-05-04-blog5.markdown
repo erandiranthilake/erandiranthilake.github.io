@@ -14,13 +14,13 @@ linkTitle: "Home Page Link: https://erandiranthilake.github.io/"
 Improved Naive Bayes Classifier with Text optimazation</h3>
 <hr>
 
-<a href="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/Project_proposal.pdf">Project Proposal</a>
+<a href="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/Project_proposal.pdf">Project Proposal</a><br>
 <a href="https://www.kaggle.com/erandiranthilake/spam-detector-naive-bayes">Link to Kaggle notebook - Spam Detector</a><br>
 
 <hr>
 <div style="text-align: justify"> 
 With the expansion of the technology around the globe, digital messaging has become an important part of everyday life. These messaging systems can include SMS, Email, IM in various apps etc. While many uses these messages to communicate in personal or professional setup, some use these systems as information sources. For this reason, these platforms are targeted by many groups to share information and advertise products or services. Among these groups can exist some individuals that may misuse the
-system.<br>
+system.<br><br>
 A spam is any unwanted or unsolicited message sent to your device, often for commercial purposes. But it could take other form such as, a link to a number to call or text, a link to a website for more information. It is estimated that in the United States, every year almost 4.5 billion spam texts end up in inboxes.<br><br>
 
 <h3>Why someone need an application to detect spam messages? </h3> 
@@ -40,6 +40,11 @@ worse, bank details and other sensitive information in order to win a prize. Thi
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam_ss.png" alt="Spam Detector"><br>
 <i> Spam Detector Application User Interface Sketches</i>
 <br><br>
+
+<h3>Methodology and Dataset</h3> 
+In order to develop the application, we will be using a data model designed using Naïve Bayes classifier. The model will be optimized using techniques such as Smoothing and Text optimization methods. We will be using a dataset from Kaggle.com, SMS spam collection dataset<br>
+<a href="https://www.kaggle.com/uciml/sms-spam-collection-dataset">Link to Kaggle dataset - SMS Spam collection dataset</a><br>
+
 
 
 <h2>Data</h2>
