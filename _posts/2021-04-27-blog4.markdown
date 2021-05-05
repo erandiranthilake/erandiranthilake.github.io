@@ -137,7 +137,7 @@ Main challenge faced in the exercise was the time it takes for the calculation. 
 
 <hr>
 
-<h2>References</h2> 
+<h2>References</h2>
 1. <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html">In Depth: Naive Bayes Classification</a><br>
 2. <a href="https://www.sciencedirect.com/topics/mathematics/naive-bayes#:~:text=Naive%20Bayes%20is%20called%20naive,large%20range%20of%20complex%20problems.">Naïve Bayes</a><br>
 3. <a href="https://www.ontotext.com/knowledgehub/fundamentals/text-analysis/">What is Text Analysis?</a><br>
