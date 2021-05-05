@@ -16,7 +16,7 @@ Improved Naive Bayes Classifier with Text optimazation</h3>
 
 <a href="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/Project_proposal.pdf">Project Proposal</a><br>
 <a href="https://www.kaggle.com/erandiranthilake/spam-detector-naive-bayes">Link to Kaggle notebook - Spam Detector</a><br>
-<a href="https://youtu.be/7g7hSAQB0L8">YouTube Video Link - Spam Detector Demo</a><br>
+<a href="https://www.youtube.com/watch?v=7g7hSAQB0L8">YouTube Video Link - Spam Detector Demo</a><br>
 
 <hr>
 <div style="text-align: justify"> 
