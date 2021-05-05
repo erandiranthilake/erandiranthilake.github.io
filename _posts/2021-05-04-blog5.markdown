@@ -105,8 +105,9 @@ Average accuracy of predicting the if a text is a spam or not when the model is 
 <br><br>
 
 <h3>Application Development</h3>
-Using the tonal vocabulary and appropriate calculation we can develop an application to detect wheather a given message is a spam or not.<br>
-Following is a simple Graphical User Interface that can be found in the git project.<br><br>
+Using the tonal vocabulary and appropriate calculations we can develop an application to detect whether a given message is a spam or not.<br>
+Following is a simple Graphical User Interface that can be found in the git project.
+<br><br>
 
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam.JPG" alt="Spam">
 <img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/noSpam.JPG" alt="no Spam"><br>
