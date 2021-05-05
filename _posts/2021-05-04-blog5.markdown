@@ -104,6 +104,15 @@ Average accuracy of predicting the if a text is a spam or not when the model is 
 <i> Optimized Vs Not-Optimized model outputs</i>
 <br><br>
 
+<h3>Application Development</h3>
+Using the tonal vocabulary and appropriate calculation we can develop an application to detect wheather a given message is a spam or not.<br>
+Following is a simple Graphical User Interface that can be found in the git project.<br><br>
+
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/spam.JPG" alt="Spam"><br>
+<img src="https://raw.githubusercontent.com/erandiranthilake/erandiranthilake.github.io/gh-pages/images/noSpam.JPG" alt="no Spam"><br>
+<i> Spam Vs Non-spam</i>
+<br><br>
+
 <h3>Conclusion</h3>
 
 It is evident that when the classifier optimization techniques such as smoothing combined with text optimization techniques such as removing stop words and stemming of the word, can result in a much higher accuracy for predicting whether a text is a spam. Therefore, these techniques are highly recommended to be applied in ML models that perform textual data analysis.
